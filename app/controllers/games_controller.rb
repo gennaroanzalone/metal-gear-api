@@ -11,7 +11,7 @@ class GamesController < ApplicationController
   end
 
   def create
-    @game = Game.create(game_params)
+    @game = Game.create!(game_params)
     json_response(@game)
   end
 
