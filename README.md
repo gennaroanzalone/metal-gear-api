@@ -1,24 +1,47 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# _Metal Gear API_
 
-* Ruby version
 
-* System dependencies
+## About
 
-* Configuration
+_An API that will return all games and characters from the Metal Gear Franchise._
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## Building the App or Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+* Clone this repository
+* Install required dependencies
 
-* Deployment instructions
+```
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+```
 
-* ...
+* To run local server
+
+```
+$ rails s
+```
+* To test API use [Postman](https://www.getpostman.com/)
+
+```
+Enter https://localhost:3000
+```
+
+## Support and Contact Details
+
+Please contact [Gennaro Anzalone](g.anzalone12@gmail.com) with questions or comments.
+
+
+## Technologies Used
+
+* [rails](http://rubyonrails.org/)
+
+### License
+
+Copyright (c) 2017 **Gennaro Anzalone**
+
+*This software is licensed under the MIT license.*
