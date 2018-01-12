@@ -1,7 +1,8 @@
 class GamesController < ApplicationController
 
   def index
-    @games = Game.all
+    name = params[:name]
+    @games = Game.search(name)
     json_response(@games)
   end
 
@@ -12,12 +13,15 @@ class GamesController < ApplicationController
 
   def create
     @game = Game.create!(game_params)
-    json_response(@game)
+    json_response(@game, :created)
   end
 
   def update
-    @game = Game.find(params[:id])
-    @game.update(game_params)
+    if @game.update!(game_params)
+      render status: 200, json: {
+        message: "Game has been updated successfully."
+      }
+    end
   end
 
   def destroy
