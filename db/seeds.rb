@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+#Seeding for data
+
 name1 = "Metal Gear"
 
 release1 = "July 13, 1987"
@@ -308,6 +310,769 @@ It is later revealed that Venom Snake is not actually Big Boss but a loyal MSF m
 
 development16 = "In February 2012, a site owned by Konami, Development Without Borders, promoted development for a new Metal Gear title, for The next MGS. The site was recruiting staff for the 2012 GDC pavilion in March, and requested applications for several positions for the latest Metal Gear Solid targeted for high-end consoles and next-gen Fox engine. As the year went on, screenshots and videos of the newly announced Fox Engine were unveiled by the team. This media demonstrated many random settings and characters, although none related to the Metal Gear series. Certain screenshots, however, were noted to feature a character who resembled the Big Boss character of Metal Gear, walking up to a Stryker AFV previously seen in Metal Gear Solid 4. Konami unveiled Metal Gear Solid: Ground Zeroes at a private function celebrating the twenty-fifth anniversary of the Metal Gear series on August 30, 2012. The game later made its public debut two days later at the 2012 Penny Arcade Expo. Kojima revealed very little detail about the project at the time other than it was a prologue to Metal Gear Solid V, and that it would be the first game to use the Fox Engine, a game engine developed by Kojima Productions. In January 2013, Kojima revealed that Ground Zeroes would be the first title in the series to be subtitled in Arabic, a feature the team had planned for previous games. He also confirmed that the length of the cutscenes were reduced, as he believed that long cutscenes had become outdated. In an interview with VG247, Kojima expressed concerns over whether or not Ground Zeroes would be released. He claimed that his aim was to target taboos and mature themes, which he considered to be quite risky, adding that his roles as creator and producer were in conflict with one another; as creator, Kojima wanted to take the risk of exploring themes that might alienate audiences, but as producer, he had to be able to tone down the content in order to sell as many copies of the game as possible. Ultimately, the role of creator won out, and Kojima described his approach as prioritizing creativity over sales.At the Spike Video Game Awards in December 2012, a teaser trailer for a game known as The Phantom Pain was shown, credited to a new Swedish developer known as Moby Dick Studio, and was described as being 100% gameplay. Allegedly led by Joakim Mogren, the studio's mission statement read that it aimed to deliver an uncompromising, exciting, and touching game experience to people all around the globe. After the presentation, commentators speculated that The Phantom Pain was actually a Metal Gear game, noting the protagonist's resemblance to Big Boss, graphics similar to those produced by the Fox Engine, the quote V has come to at the end of the trailer, and that the title Metal Gear Solid V fits in the negative space and indentations of the game's logo when using the same font. The name Joakim was an anagram of Kojima, the domain name for the studio's website had only been registered about two weeks prior to the announcement, and that several people wearing Moby Dick Studio shirts were sitting in a VIP area intended for Konami staff. Hideo Kojima stated he was impressed by the trailer and how Mogren was inspired by Metal Gear. An actor playing a heavily bandaged Mogren appeared in an interview on the March 14, 2013 episode of GameTrailers TV; while stating that he could not reveal many details, he confirmed that more details about The Phantom Pain would be revealed at the upcoming Game Developers Conference, and showed a series of screenshots on an iPad to the show's host Geoff Keighley. After Keighley pointed out the Fox Engine logo in the screenshots, Mogren appeared nervous and the segment abruptly ended. On March 27, 2013 at GDC 2013, Kojima confirmed that his studio was behind the trailer, and announced that Metal Gear Solid V would be two separate games; Ground Zeroes would now serve as a prologue for the main game, which was officially announced as Metal Gear Solid V: The Phantom Pain. He subsequently presented a trailer for the game, and showcased the Fox Engine. The trailer featured the song Not Your Kind of People from Garbages 2012 album of the same name. While the official trailer announcing the game was running on a PC, the game was released for the seventh and eighth generations of video game consoles. In an interview during E3 2013, when asked about a PC release Kojima stated We are making it, and it will be on par with the PlayStation 4 and Xbox One versions. However, he made it clear that the PC port was not their priority. Kojima confirmed that the visuals seen in the trailer would look close to those in the final game. He also stated that he would like Metal Gear Solid V to be his final Metal Gear game, noting that unlike previous titles where he had announced that he had finished making games in the series, only to return for subsequent games, his involvement with the franchise would be over this time around. Although the trailer had Snake suffering from hallucinations in the form of a flaming whale, Kojima assured that there would be a balance in realism. Kojima later revealed that The Phantom Pain was initially presented as an independent game so as to assess the public and industry response to the Fox Engine, as he felt that announcing the game as part of Metal Gear Solid V would bias reactions to the engine. On June 10, 2013 at E3 2013, a fourth trailer was shown at the Microsoft press conference, demonstrating the new play mechanics, as well as the cast of characters. The development of an Xbox One version was also announced at the conference. The PlayStation 4 version was announced the following day when Konami uploaded the red band version of the trailer on their YouTube channel in addition to the standard green band version. The trailers for Metal Gear Solid V showed the game running on a PC hardware, but according to Kojima with textures and character models somewhat based on seventh generation hardware. The developers aimed to improve the technical quality for the versions released for the eighth generation of consoles. Kojima alluded to the game possibly being too big to clear, adding that the game is 200 [times larger] than Ground Zeroes. Kojima wanted the player to connect with Snake in The Phantom Pain. To accomplish this, the loss of Mother Base, which the player developed throughout Peace Walker, would serve as motivation for revenge for both Snake and the player. Kojima also tried making Snake relatable to newcomers of the series by making him unaware of what happened in the nine years during which he was in a coma. Weapons, vehicles and other armaments are unlicensed and fictional in The Phantom Pain, just as they were in Ground Zeroes, unlike previous Metal Gear Solid games that included mostly real-world based weaponry. On June 9, 2014 at E3 2014, a fifth cinematic trailer featuring Mike Oldfield's song Nuclear was shown at the Sony press conference, unveiling more plot details surrounding the Diamond Dogs and Snake's antagonistic descent. It was leaked a day earlier, due to an accidental post from Konami's official YouTube channel. Alongside the new trailer, the official site for Metal Gear Solid V was updated and included new information and images such as the developmental progress of the in-game map and the evolution of Snake's design across all games in the series. On August 25, 2015, Kojima released a launch trailer showing Metal Gear's Evolution and Harmony with clips from the previous games along with the reveal of the new Metal Gear Sahelanthropus. Over $80 million was spent on the development of the game."
 
+#begin character seeding
+
+char_name1 = "Solid Snake"
+
+first_game1 = "Metal Gear (1987)"
+
+bio1 = "Solid Snake is the main hero and the primary protagonist of the Metal Gear main series. A former Green Beret and a highly skilled special operations soldier engaged in solo stealth and espionage missions, he is often tasked with destroying models of the bipedal nuclear weapon-armed mecha known as Metal Gear. Controlled by the player, he must act alone, supported via radio by commanding officers and specialists.
+In the early games, Solid Snake's visual appearances were references to popular actors. He was given his own consistent design in Metal Gear Solid. Such design shows him as a brown-haired adult wearing a dark sneaking suit and a bandana. This appearance has remained mostly consistent throughout subsequent installments, with minor changes due to his advancing age. During Metal Gear Solid 2: Sons of Liberty, he disguises himself by wearing a Navy SEAL uniform. He has access to different disguises to make him look like other characters, as well as his younger self. He also establishes Philanthropy, an anti-Metal Gear organization carrying the motto ‘To let the world be’, with his best buddy Otacon.
+He possesses an IQ of 180, and is fluent in six languages. Solid Snake has been on the battlefield for most of his life; a hardened veteran, he has his emotions buried very deep inside himself during his missions, every one of which has different motives. He is also immediately shown as a loner, often with no intentions of taking orders from anyone anymore and he shows no sign of longing for the army or the country he was part of. However, along with these traits he has a more human side, being flirtatious, self-sacrificing and with a strong belief that even on a battlefield friendship and love can flourish, and that violence is not glorious. But Snake's perceived stance on violence may be a case of denial, as Snake's enemies and at least one of his allies have claimed that, in truth, he enjoys killing, and label him as more evil than the people he has killed. When he is not on duty, he acts as a musher."
+
+char_pic1 = ""
+
+char_name2 = "Big Boss"
+
+first_game2 = "Metal Gear (1987)"
+
+bio2 = "Big Boss is one of the central characters in the Metal Gear video game series. He was introduced in the original Metal Gear games for the MSX2 as the commanding officer and subsequent nemesis of Solid Snake. He is later featured as Naked Snake, the protagonist of Metal Gear Solid prequels where he is initially depicted as an American Special Forces Operator and decorated war hero until political manipulations cause him to be disillusioned and start his own private mercenary company. Big Boss's character has been praised by video game publications for his role as a villain as well for his relationship with Solid Snake. As the series' chronology progressed, his exact allegiance and motivations became increasingly complex; his first appearances are depicted as a traitor dreaming of a world of perpetual war, but subsequent appearances have revealed him to be a key figure in an ideological dispute that shaped the latter half of the twentieth century and a man whose conscience was disturbed by the attitude of leaders towards soldiers, prompting his decision to become a soldier of fortune and Venom Snake's mental template."
+
+char_pic2 = ""
+
+char_name3 = "Gray Fox"
+
+first_game3 = "	Metal Gear (1987)"
+
+bio3 = "Gray Fox, real name Frank Jaeger, was a mercenary and former agent of U.S. Special Forces Unit FOXHOUND. Originally a child soldier, Jaeger was the only operative in FOXHOUND to achieve the codename Fox, the unit's highest commendation, and was decorated five times.
+Fox was Solid Snake's comrade-in-arms and friend during the Outer Heaven Uprising, but his loyalty to renegade commander Big Boss forced him into combat with Snake during the Zanzibar Land Disturbance. He survived his injuries following an intense battle, after which he was forcibly outfitted with a powered exoskeleton and subjected to intensive gene therapy. Fox later confronted Snake as a neutral force during the Shadow Moses Incident, in the guise of the Cyborg Ninja, before dying at the hands of Liquid Snake and Metal Gear REX."
+
+char_pic3 = ""
+
+char_name4 = "Revolver Ocelot"
+
+first_game4 = "Metal Gear Solid (1998)"
+
+bio4 = "Revolver Ocelot, otherwise known as Shalashaska and Major Ocelot, is a recurring gunslinger antagonist; a major nemesis of Solid Snake during the original Metal Gear Solid games, Liquid Snake's henchman within FOXHOUND during Metal Gear Solid, both Solidus Snake's right-hand man and the Patriots' agent during Metal Gear Solid 2, and a friendly rival/ally of Big Boss during the Metal Gear Solid prequels. Playing a major role in the overall story, Ocelot's intentions during the games he appears in are shrouded in mystery, and are all to accomplish his own undisclosed intentions."
+
+char_pic4 = ""
+
+char_name5 = "Dr. Madnar"
+
+first_game5 = "Metal Gear (1987)"
+
+bio5 = "Dr. Drago Pettrovich Madnar (known simply as Dr. Petrovich in the original Metal Gear and Dr. Pettrovich Madnar in the MSX2 version of Metal Gear 2) is an Eastern engineer responsible for creating the TX-55 Metal Gear mecha in the original Metal Gear, as well as the TX-11 Arnold (Bloody Brad) androids. Dr. Madnar is one of the hostages Snake must rescue along with his daughter Ellen. In Metal Gear 2, Dr. Madnar bitterly defects to Zanzibar Land and develops Metal Gear D after being rejected by the scientific community. He comes in contact with Snake in the game while posing as a hostage, but attacks him after the truth is revealed. His name is mentioned in Metal Gear Solid 4 as the scientist who saved Raiden's life after being turned into a cyborg."
+
+char_pic5 = ""
+
+char_name6 = "Kyle Schneider"
+
+first_game6 = "Metal Gear (1987)"
+
+bio6 = "Kyle Schneider (known simply as Schneider in the original Metal Gear) is the leader of a resistance movement against Outer Heaven in Metal Gear, who helps Solid Snake as a radio contact alongside fellow resistance members Diane and Jennifer. He discovers the identity of Outer Heaven's leader, but is silenced before he can mention his name. In Metal Gear 2, Schneider appears under the guise of Black Ninja in the original MSX2 version), a high-tech ninja under the service of Zanzibar Land and the first boss in the game.[29] Solid Snake defeats him during a battle but does not learn his true identity until he collapses. He then reveals to Snake that NATO led a bombing raid against Outer Heaven, not caring about the war orphans or war refugees. Before dying, he also tells Snake that Big Boss had forgiven the resistance for being against him and rescued as many of them from the bombings, both Outer Heaven personnel and Resistance members."
+
+char_pic6 = ""
+
+char_name7 = "Col. Roy Campbell"
+
+first_game7 = "Metal Gear 2: Solid Snake (1990)"
+
+bio7 = "Col. Roy Campbell, is the second commanding officer of FOXHOUND. Introduced in Metal Gear 2, he serves as Solid Snake's primary radio contact in the game and gives information about the mission objective and general gameplay tips for Zanzibar Land.
+In Metal Gear Solid, Campbell has more of a personal stake in the mission on Shadow Moses, as his niece Meryl Silverburgh is held captive by Liquid Snake's revolutionary FOXHOUND which Solid Snake has to battle. In Metal Gear Solid 2, he is impersonated by the Colonel, Raiden's commanding officer that provides support via codec that's later revealed to be an elaborate AI constructed by supercomputer GW within Arsenal Gear for the Patriots.
+Although he is not involved in the main story, the character makes a voice only cameo in Metal Gear Solid 3 during the game over screen scolding the player for causing a time paradox if the player kills certain characters. He also appears in the Ape Escape crossover minigame Snake vs. Monkey. In Portable Ops, a young version of the character is imprisoned by the FOX unit in South America with Naked Snake. The two escape to recruit Gene's disenfranchised enemy soldiers and other allies into an early version of FOXHOUND.
+In Metal Gear Solid 4, Campbell works for a UN Security Council advisory body that monitors PMC activities. He sends Old Snake on an unofficial mission to assassinate Liquid Ocelot in order to put a stop to Ocelot's plans, providing Snake's means of transportation to complete the mission. He is married to Rosemary which causes a rift between him and Meryl (now aware that Campbell is her father). However, the marriage is a sham used to fool the Patriots and protect Rose (and Raiden's) son John.
+Outside the main canon, the character reprises his role as the reluctant commanding officer in the Game Boy Color game Metal Gear: Ghost Babel, a side-story which serves as an alternate sequel to the events of the original Metal Gear. He, Otacon and Mei Ling serve as Solid Snake's codec contacts in Super Smash Bros. Brawl. He also makes a brief codec appearance in a minigame in Ape Escape 3."
+
+char_pic7 = ""
+
+char_name8 = "Master Miller"
+
+first_game8 = "Metal Gear 2: Solid Snake (1990)"
+
+bio8 = "Master Miller is a drill instructor and survival coach. The character, originally named McDonnell Benedict Miller, was an Asian-looking man with black hair in the MSX2 version of Metal Gear 2. Later releases of Metal Gear 2 redesigned Miller's portrait to make him resemble his later incarnation from the Metal Gear Solid games, in which he is depicted with blond hair and aviator sunglasses. Various materials stated also that he was originally a third-generation Japanese-American who has served in the SAS, Green Berets and USMC. Introduced in Metal Gear 2, Master is a member of FOXHOUND and one of Solid Snake's radio contacts. In Metal Gear Solid, he was murdered three days prior to the events of the game, and his identity is assumed by Liquid Snake to manipulate Solid Snake. A younger iteration of the character named Kazuhira Miller, commonly known by his nickname Kaz, is introduced in the prequel Metal Gear Solid: Peace Walker, where he serves as second-in-command in Big Boss's Militaires Sans Frontières mercenary group within Mother Base. The game also changed his backstory established from the previous games, revealing his upbringing as the son of a US officer and a Japanese woman, and also notes his brief service in the JSDF. Miller is initially characterized as idealistic, believing in MSF's idea of a nation for soldiers free of political ideology, but is also naïve, underestimating Cipher and assuming that he can maintain control over the organization. This would come into full effect with Miller in Metal Gear Solid V. Following the destruction of MSF, Miller becomes increasingly embittered, seeing the concept of a nation for soldiers appropriated by other groups and reduced to becoming mercenary bands. He is rescued by Venom Snake from Soviet forces, enabling him to help in the expansion of the new Diamond Dogs mercenary group, wearing a large trenchcoat and beret while walking with a limp having lost his left leg and right arm. He is deeply distrusting of anyone affiliated with Cipher, accusing the likes of Huey and Quiet of betraying them and calling for their deaths. He takes little satisfaction in being proven right. Miller nevertheless believes in Snake's cause. However, his faith is ultimately shaken with the revelation that Snake is actually Big Boss's body double as part of Big Boss's plan to wage a covert war. This prompts Miller to reject Big Boss, vowing to maintain the ruse only until one of Big Boss's sons is ready to challenge Big Boss."
+
+char_pic8 = ""
+
+char_name9 = "Dr. Kio Marv"
+
+first_game9 = "Metal Gear 2: Solid Snake (1990)"
+
+bio9 = "Dr. Kio Marv is a Czechoslovak biotechnologist and erstwhile video game designer. In the backstory of Solid Snake, Marv successfully creates a new algae species called OILIX that could produce petroleum-grade hydrocarbons with little expense and effort. Marv presented the algae to the World Energy Conference in Prague, and was on his way to a demonstration in the United States when he was kidnapped by soldiers from Zanzibar Land. Solid Snake is brought out of retirement by FOXHOUND's new commander, Roy Campbell, and is sent to Zanzibar Land to rescue Dr. Marv. However, he dies of torture in his cell and left behind the OILIX plans for Snake to find."
+
+char_pic9 = ""
+
+char_name10 = "Holly White"
+
+first_game10 = "Metal Gear 2: Solid Snake (1990)"
+
+bio10 = "Holly White is an American freelance journalist. Born from a French mother and an English father, she became interested in literature at an early age and was later awarded the Pulitzer Prize for her coverage in Afghanistan plus an Emmy Award (mistakenly referred to in the original manual as a Grammy Award) for her documentary, Unknown Bloodstream. Her newfound fame eventually gets her the attention of the CIA. She infiltrates Zanzibar Land as a journalist and assists Solid Snake over the course of the mission."
+
+char_pic10 = ""
+
+char_name11 = "Gustava Heffner"
+
+first_game11 = "Metal Gear 2: Solid Snake (1990)"
+
+bio11 = "Gustava Heffner is a former professional figure skater. Once known as one of the world's best figure skaters (with stints in the world championships and the Olympics under her belt), Heffner was stripped of her competition rights after being caught in an attempt to seek political asylum in Canada with Frank Jaeger. She sought to redeem herself by joining the StB. She is escorting Dr. Marv to America when Zanzibar Land agents hijack their plane. Later in the game, she joins Snake in rescuing Dr Marv, but dies when Jaeger (as Gray Fox in Metal Gear D) destroys the bridge she is on."
+
+char_pic11 = ""
+
+char_name12 = "George Kasler"
+
+first_game12 = "Metal Gear 2: Solid Snake (1990)"
+
+bio12 = "George Kasler is FOXHOUND's resident strategist and advisor whose military career includes service with mercenaries from South Africa and the French Foreign Legion, plus a short stint in negotiation and combat intelligence-gathering. He is also a veteran of the 1997 Mercenary War of Independence in Zanzibar Land, fighting the CIS Army. Kasler's service earns him a lasting reputation in the mercenary community; only mercenaries who have worked with him can be truly recognized as the best in the world."
+
+char_pic12 = ""
+
+char_name13 = "Johan Jacobsen"
+
+first_game13 = "Metal Gear 2: Solid Snake (1990)"
+
+bio13= "Johan Jacobsen is a zoologist specializing in the preservation of all endangered species. He is the vice-president of the fictional Worldwide Animal Rights Federation and works for the science magazine Maxwell. He is revealed to have been acquainted with Dr Madnar since their days in college and is in Zanzibar Land to study indigenous animals."
+
+char_pic13 = ""
+
+char_name14 = "Naomi Hunter"
+
+first_game14 = "Metal Gear Solid (1998)"
+
+bio14= "Naomi Hunter, nicknamed Dr. Naomi  by her staff, is a geneticist by practice, and specializes in nanotechnology-based gene therapy.
+In Metal Gear Solid, she is the chief of FOXHOUND's medical staff and part of the support crew assembled to assist Solid Snake, providing the player with information on the FOXHOUND members Snake faces.[47] Being Gray Fox's adopted sister, she attempted to get revenge on Snake for nearly killing her brother during the original Metal Gear games. When instructed to inject Snake with the FOXDIE virus, she secretly modifies it so that it will kill Snake at a random moment in addition to its original programming. As the game progresses, Naomi realizes that some of her original perceptions of Snake were wrong and is later remorseful for modifying the virus. Uncertain of when exactly the FOXDIE would kill, Naomi tells Snake to live life to the fullest in whatever time there was left. Afterwards, Nastasha Romanenko's account reveals that Naomi was briefly arrested following the Shadow Moses incident until her escape.
+In Metal Gear Solid 4, Naomi is working with Liquid Ocelot in order to hijack the SOP battlefield control system, but joins Snake's group once again. She becomes romantically involved with Otacon and forms a friendship with Sunny. When they return to Shadow Moses, Naomi reveals that she has been diagnosed with terminal cancer that has been kept in check by nanomachines and, guilt-ridden over her past mistakes, commits suicide by disabling them."
+
+char_pic14 = ""
+
+char_name15 = "Otacon"
+
+first_game15 = "Metal Gear Solid (1998)"
+
+bio15= "Hal Emmerich, nicknamed Otacon, is a recurring character in the Metal Gear Solid series and Solid Snake's close friend. He is introduced in Metal Gear Solid as ArmsTech's employee and Metal Gear REX's engineer that becomes Snake's close ally upon learning of REX's nuclear strike capabilities. Afterwards, he helped Solid Snake with the non-profit Philanthropy organization while dealing with more emotional problems in Metal Gear Solid 2: Sons of Liberty and Metal Gear Solid 4: Guns of the Patriots. "
+
+char_pic15 = ""
+
+char_name16 = "Meryl Silverburgh"
+
+first_game16 = "Metal Gear Solid (1998)"
+
+bio16= "Meryl Silverburgh is a character based on the character of the same name from Policenauts that was redesigned and reintroduced. She is introduced in Metal Gear Solid as Solid Snake's sidekick/love interest and Roy Campbell's legal niece/biological daughter. Meryl returns in Metal Gear Solid 4: Guns of the Patriots as Rat Patrol Team One's commander. "
+
+char_pic16 = ""
+
+char_name17 = "Mei Ling"
+
+first_game17 = "Metal Gear Solid (1998)"
+
+bio17= "Mei Ling is a Chinese-American data analyst in charge of saving the player's progress in Metal Gear Solid. She invents Solid Snake's wireless communication system, the codec radio, as well as the Soliton Radar, which detects the positions and field of vision of nearby enemy soldiers. Every time Snake saves his data, Mei Ling provides him with advice through Chinese proverbs, as well as quotations from Western authors. In the Japanese version, Mei Ling only quoted Chinese proverbs: she would cite the original proverb in Chinese and then explain its meaning to Snake in Japanese. According to Kojima, this made some of the proverbs redundant after translating them to English, since Mei Ling would be saying the same thing twice. In Metal Gear Solid 2, Mei Ling is part of Philanthropy, an anti-Metal Gear organization, but assists off-screen, attempting to steal equipment from the SSCEN. She makes a voice-only cameo in the game as an easter egg during the Tanker chapter, after the player has saved their progress 13 times. In Metal Gear Solid 4, Mei Ling commands the museum-turned-training vessel USS Missouri and provides Snake and Otacon with backup, courtesy of her connections from the SSCEN."
+
+char_pic17 = ""
+
+char_name18 = "Johnny Sasaki"
+
+first_game18 = "Metal Gear Solid (1998)"
+
+bio18= "First appearing in Metal Gear Solid, he is an enemy guard whose uniform is stolen by Meryl Silverburgh and again later in the game whilst Solid Snake is being held between torture sessions with Revolver Ocelot while suffering from a cold and diarrhea. Johnny's character is never named in the game and is listed only in the ending credits as Johnny Sasaki. The surname Sasaki comes from the game's character model designer Hideki Sasaki. According to the developers' commentary in Metal Gear Solid: Integral, Hideki was known among the staff for his slackoff behavior and the character was included in the game as a running gag.
+Johnny later returns for a pair of voice-over only cameos in Metal Gear Solid 2. In an early version of the game's story, his full name was to be Johnny Sasaki Slater and originally had a minor role in the story in which his character (a spy for the Patriots) would die from a pacemaker malfunction after coming in contact with Raiden.[59] During the game, Raiden can hear Johnny talking using a directional mic in Big Shell.
+In the game of Metal Gear Solid 4, Johnny now has the nickname Akiba and is a member of Meryl's Rat Patrol Team 01. Also, his face is revealed for the first time in the series. He and Meryl assist Snake in Outer Haven by allowing him time to reach the server room. It is revealed that he had been in love with Meryl since he first saw her at Shadow Moses, and they get married in the epilogue. Unlike all of the other soldiers in the Army and the PMCs, Johnny does not have nanomachines since he always avoided the injections due to his trypanophobia; the lack of these explains his frequent spells of colds and diarrhea. While this gives him poor combat performance in comparison to his squad mates, he is completely immune to Liquid Ocelot's ability to directly attack soldiers' nanomachines. He also appears in the first Metal Gear Online expansion as a playable character."
+
+char_pic18 = ""
+
+char_name19 = "Psycho Mantis"
+
+first_game19 = "Metal Gear Solid (1998)"
+
+bio19= "Psycho Mantis is a psychic expert for Liquid Snake's FOXHOUND unit in Metal Gear Solid. After the collapse of the Soviet Union, he came to America looking for a job. Prior to joining FOXHOUND, he worked with the KGB and the FBI. His special abilities include the psychic powers of psychokinesis and telepathy, which in a Fourth Wall-breaking scene allows him to read the player's memory card and move the controller by making it vibrate. As a result of being disgusted with his father's inner thoughts, he burned his own village and started despising people. He also claims to be able to read the future, but this is implied to be a use of telepathy to find out what his opponents will do next as opposed to true clairvoyance. Mantis encounters Solid Snake twice, the first time he takes control of Meryl Sliverburgh's mind, the second encounter he and Snake do battle, with Mantis being killed. His predictions also seem to be susceptible to change, stating that Snake has a large place in Meryl's heart, but cannot see if their futures lie together. After defeating Screaming Mantis in Metal Gear Solid 4, the original Mantis makes an appearance, attempting to read your mind as before, but cannot due to the advanced systems. He then tries to manipulate the controller, which (depending on whether controller vibration is available) either fails and infuriates him or succeeds and makes him scream in delight before he vanishes into the air. Drebin later reveals that the Beauty and the Beast Corps had been under the control of Mantis all along. The character's first chronological appearance is in Metal Gear Solid V: The Phantom Pain, where he is known as Tretij Rebenok, Russian for The Third Child. The character's origin story explains that he was identified by Soviet researchers and taken to a facility in Moscow where he was housed with the comatose Volgin. Responding to Volgin's innate, overriding desire for revenge, the two broke out, with Volgin as the Man on Fire. The boy and the Man on Fire pursue Venom Snake throughout the story, working alongside Skull Face, the game's antagonist. The boy is able to detect the subtle electromagnetic currents running between the brain's synapses, and is particularly sensitive to feelings of anger, hatred and the desire for revenge. These feelings manifest in the physical world as a representation of those emotions. However, since he is still a child, he is overwhelmed by these emotions and becomes a slave to the will of whoever is expressing them. Over the course of the story, he identifies these feelings as being strongest in Eli and their relationship becomes symbiotic, magnifying the boy's power even further and allowing Eli to take control of Metal Gear Sahelanthropus. Once Snake disables Sahelanthropus, the boy steals a sample of a weaponized parasite designed to target English language speakers and passes it on to Eli, and the two disappear."
+
+char_pic19 = ""
+
+char_name20 = "Sniper Wolf"
+
+first_game20 = "Metal Gear Solid (1998)"
+
+bio20= "Sniper Wolf is the Iraqi-Kurd sharpshooter of the FOXHOUND unit in Metal Gear Solid. She uses a Heckler & Koch PSG1. Though snipers usually work in pairs, Wolf works alone. She is also another disciple of Big Boss whom she sees as a modern-day version of the Kurdish sultan Saladin.During Liquid Snake's takeover, she allows Otacon to feed the wolves and gives a handkerchief; Otacon becomes infatuated with her because of this. She fights Solid Snake twice, the first time results in Meryl being captured, Wolf with mild blood loss, and Snake being tortured, the second battle results in her being killed."
+
+char_pic20 = ""
+
+char_name21 = "Vulcan Raven"
+
+first_game21 = "Metal Gear Solid (1998)"
+
+bio21= "Vulcan Raven is an Inuit member of FOXHOUND who wields a giant Vulcan cannon and has shamanic powers of intuition seen in Metal Gear Solid. He is able to discern Solid Snake's heritage and was present in Outer Heaven prior to his involvement at Liquid Snake's FOXHOUND unit. He does battle with Snake twice, the first battle with Raven in an M1 Abrams tank, the second in a freezer with Raven being killed. During his death scene, he gives info on Decoy Octopus's impersonation of the DARPA Chief. He also leaves Snake with a cryptic message of his violent future before his body is completely devoured by ravens."
+
+char_pic21 = ""
+
+char_name22 = "Decoy Octopus"
+
+first_game22 = "Metal Gear Solid (1998)"
+
+bio22= "Decoy Octopus is a member of FOXHOUND seen in Metal Gear Solid. Specializing in impersonation, he even injects the blood of those he impersonates into his own body for a more perfect disguise. Along with the rest of his unit, he went rogue during Liquid Snake's Shadow Moses island incident. He impersonates Donald Anderson after Revolver Ocelot killed the DARPA Chief during an interrogation. As Anderson, he lies to Solid Snake about having his detonation code found out by Psycho Mantis and also informs Snake of the PAL override system before being killed by the FoxDie virus."
+
+char_pic22 = ""
+
+char_name23 = "Nastasha Romanenko"
+
+first_game23 = "Metal Gear Solid (1998)"
+
+bio23= "Nastasha Romanenko is an agent of the U.S. Defense Intelligence Agency and an expert on nuclear topics. She was born in Ukrainian SSR and was just ten years old when the Chernobyl disaster took place. In both Metal Gear Solid and its GameCube remake Metal Gear Solid: The Twin Snakes, she is Solid Snake's contact on matters related to nuclear weapons. After the game's events, her character writes an autobiography titled In the Darkness of Shadow Moses: The Unofficial Truth and then forms the anti-proliferation group Philanthropy with the profits she made. This fictional publication serves as a plot summary of Metal Gear Solid (and reveals previously undisclosed plot details about the events of the games), and is included as a bonus feature in Metal Gear Solid 2."
+
+char_pic23 = ""
+
+char_name24 = "Kenneth Baker"
+
+first_game24 = "Metal Gear Solid (1998)"
+
+bio24= "Kenneth Baker is the president of the arms industry company ArmsTech that takes part in Metal Gear REX's project with the DARPA chief Donald Anderson as part of the United States' black budget. In Metal Gear Solid, he is taken prisoner by FOXHOUND, and tortured by Revolver Ocelot then rescued by Solid Snake. After he gives away his detonation code to Ocelot, Snake is unable to rescue him before as he is killed by the FoxDie virus. He is the first person to realize that FoxDie exists and nearly tells the truth about Snake's mission, but succumbs to the virus before he can finish his sentence."
+
+char_pic24 = ""
+
+char_name25 = "Jim Houseman"
+
+first_game25 = "Metal Gear Solid (1998)"
+
+bio25= "Jim Houseman is the United States Secretary of Defense who observes the situation on Shadow Moses Island aboard an AWACS command plane. He makes only one appearance at the end of Metal Gear Solid via CODEC where he orders the Shadow Moses base to be bombed. According to In the Darkness of Shadow Moses, he commits suicide following the events of the game but Nastasha Romanenko suggests he was murdered."
+
+char_pic25 = ""
+
+char_name26 = "Liquid Snake"
+
+first_game26 = "Metal Gear Solid (1998)"
+
+bio26= "Liquid Snake is the twin brother of series' protagonist Solid Snake and Solidus Snake as well as the second product of the Les Enfants Terribles, a top-secret government project to artificially create soldiers through the DNA of Big Boss. He first appears as the antagonist in the original Metal Gear Solid, where he leads the now rogue FOXHOUND unit in a hostile takeover of a nuclear disposal facility in Alaska. The character returns in the prequel Metal Gear Solid V: The Phantom Pain as a child mercenary nicknamed the White Mamba with his real name revealed to be Eli.
+Raised in the United Kingdom following his birth, Liquid served as an operative for the British SAS and later became the field commander of FOXHOUND prior to the events of the game. He leads the hostile takeover of Shadow Moses Island in order to acquire Big Boss's remains and use his genetic information to treat the mutations affecting his subordinates, the Genome Army. Liquid harbors a strong resentment towards his twin brother Solid Snake, as he mistakenly believes that Snake received all of Big Boss's superior genes, while he was given only the flawed genes. In reality, it is Liquid who actually carries the superior genes."
+
+char_pic26 = ""
+
+char_name27 = "Raiden"
+
+first_game27 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio27= "Raiden, real name Jack, is a child soldier in the Liberian Civil War, and Solidus Snake's adoptive son. He is the main character of Metal Gear Solid 2 that substitutes Solid Snake as the player's character in the main portion of the game fighting against the titular terrorists to save the hostages from Big Shell. Raiden reappears in Metal Gear Solid 4 as the new version of Cyborg Ninja who supports Old Snake. He returns as the protagonist of Metal Gear Rising: Revengeance."
+
+char_pic27 = ""
+
+char_name28 = "Olga Gurlukovich"
+
+first_game28 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio28= "Olga Gurlukovich is a member of her father's mercenary unit during Metal Gear Solid 2. Her character was somewhat based on Meryl Silverburgh yet Kojima wanted to make her look like a professional rather than a rookie. She first appears in the Tanker chapter as a member of the Gurlukovich mercenary unit and is the sole boss character in this portion of the game. She takes over her father's unit after her father's death in the Tanker chapter, lending her team to Solidus Snake's Sons of Liberty terrorist faction. She is actually an unwilling agent for the Patriots who are holding her daughter hostage, and assists Raiden as the second version of Cyborg Ninja calling herself Mr. X, simulating Gray Fox during Metal Gear Solid. By doing so, she betrays her comrades to ensure her child's safety, a realization that makes her feel guilty. She is shot and killed by Solidus."
+
+char_pic28 = ""
+
+char_name29 = "Sergei Gurlukovich"
+
+first_game29 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio29= "Colonel Sergei Gurlukovich is Olga Gurlukovich's father and Revolver Ocelot's former commanding officer. Gurlukovich was also the one who provided a Hind-D helicopter to Liquid Snake in Metal Gear Solid with a possible usage of Metal Gear REX. An officer in Russia's Spetsnaz and GRU, he leads his personal team of mercenaries to seize the Discovery during the Tanker chapter of Metal Gear Solid 2 for the purpose of hijacking Metal Gear RAY. In the course of the operation, Gurlukovich is betrayed and killed by Ocelot due to the Patriots wanting RAY for their cause."
+
+char_pic29 = ""
+
+char_name30 = "Scott Dolph"
+
+first_game30 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio30= "General Scott Dolph is the commandant of the Marine Corps and Fortune's father. In the Tanker chapter of Metal Gear Solid 2, he is in charge of transporting Metal Gear RAY to its testing site and gives a speech to his troops in the cargo holds, unaware that the ship is being hijacked. He is killed by Revolver Ocelot before hijacking RAY, and his death serves as the root of Fortune's sorrow."
+
+char_pic30 = ""
+
+char_name31 = "Rosemary"
+
+first_game31 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio31= "Rosemary , or simply Rose for short, is Raiden's girlfriend.
+Introduced during the Plant chapter portion of Metal Gear Solid 2, she is employed by the army as a data analyst, and saves the player's progress over Codec. Rosemary also supports Raiden by providing information about the Big Shell facilities and the other characters Raiden encounters in the game. Raiden and Rose spend most of their conversations talking about their relationship, something based on Kojima's real life. By the end of the game, Rosemary reveals herself to be a spy for the Patriots. She is then taken off the mission and replaced by an A.I. duplicate of her who openly mocks Raiden. After the final battle, Raiden is reunited with the real Rose, pregnant with his child, in front of Federal Hall National Memorial.
+In Metal Gear Solid 4, Rosemary appears as a psychological counselor in a combat stress platoon, offering Old Snake tips on dealing with stress. Though she became engaged to Raiden, their relationship ended after Rosemary supposedly had a miscarriage. Rosemary later marries Roy Campbell. In reality, Rosemary did give birth to Raiden's child John and her marriage is a ploy to protect the boy from the Patriots by having Campbell pose as John's father. After she reveals the truth to Raiden, the couple reconciles."
+
+char_pic31 = ""
+
+char_name32 = "Vamp"
+
+first_game32 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio32= "Vamp is a member of Dead Cell from Romania. He is a knife-throwing specialist endowed with numerous vampire-like abilities and attributes, such as a taste for blood, superhuman strength, speed, agility, the ability to walk on vertical walls and run across water (although this was based on a character that was scrapped). His moniker has dual meanings, being a short form of the English word vampire as well as referring to his bisexual orientation. Vamp was originally designed as a woman, but when the character of Fortune was introduced, the design was changed to that of a man, although the long black hair was retained, with the finished model being based on dancer Joaquín Cortés.
+First appearing in Metal Gear Solid 2, he was part of Solidus Snake's Sons of Liberty terrorist group during the Plant chapter. Vamp confronts Raiden several times throughout the course of the game being seemingly killed, but still manages to survive. In Metal Gear Solid 4, Vamp appears as a member of Liquid Ocelot's private army and as Raiden's rival. His immortality is revealed to be caused by nanomachines in his body that heal all of his wounds at an extraordinarily fast rate (augmenting his natural healing abilities). Using a syringe designed by Naomi Hunter to destabilize the functionality of nanomachines, Old Snake disables Vamp's nanomachines, while Raiden kills him at Shadow Moses Island. Vamp was also added to the second expansion of Metal Gear Online as a playable character."
+
+char_pic32 = ""
+
+char_name33 = "Fortune"
+
+first_game33 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio33= "Fortune, real name Helena Dolph Jackson, is the leading member of Dead Cell and a member of Solidus Snake's Sons of Liberty territorist group seen in Metal Gear Solid 2. She is an African-American woman with blond hair, something requested by Shinkawa as he thought she would be appealing. Her weapon is a railgun. Her codename comes from her nearly-miraculous ability to have bullets pass by her without hitting her. Fortune confronts Raiden as the first boss character in the Plant chapter, though she cannot actually be defeated due to her powers. The fight ends when Vamp arrives and is seemingly killed by Raiden, which makes her temporarily lose her will to fight until Vamp revives. Her true motive is to seek revenge against Solid Snake whom she believes was responsible for her father's death. Near the end of the game, she learns it was actually Revolver Ocelot who killed her father, and Ocelot reveals that her immunity to bullets was simply the result of an electromagnetic force field surrounding her body, which he deactivates before shooting her. However, Fortune manages to psychically deflect Ocelot's attacks from Metal Gear RAY before dying, with Snake hinting that her power as Lady Luck was not completely fake."
+
+char_pic33 = ""
+
+char_name34 = "Fatman"
+
+first_game34 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio34= "Fatman is a member of Solidus Snake's Dead Cell unit seen in Metal Gear Solid 2 that specializes in explosives. He is a psychopathic, overweight bald man in an EOD suit who moves around on rollerblades and is armed with a Glock 18 in addition to his bombs. Shinkawa had trouble designing him as he had been requested to make him obese and goodlooking at the same time. He is the second boss character in the Plant chapter. One of Raiden's early objectives in the Plant chapter is to deactivate a series of C4 bombs planted within each of the struts surrounding the Shell 1 core. The explosives are revealed to be nothing more than dummy bombs serving to activate the real bomb in the basement of Strut A. A similar bomb planted in the basement of the Shell 2 Core detonates, killing Fatman's former mentor Peter Stillman in the process. As Raiden meets with him, Fatman reveals that he wishes to become the world's most famous bomber by surpassing Stillman. Fatman then challenges Raiden to a duel at the heliport atop Strut E, which results in his death. It's later reveals that Fatman was actually an agent of The Patriots and that Stillman's presence in the facility was arranged to motivate Fatman into participating."
+
+char_pic34 = ""
+
+char_name35 = "Peter Stillman"
+
+first_game35 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio35= "Peter Stillman is a former NYPD bomb disposal expert working for the Bund Patrol and the former mentor of Fatman. In Metal Gear Solid 2, he infiltrates the Big Shell facility with SEAL Team 10. After Fatman planted bombs within each of the struts in the entire Big Shell facility, Stillman provides Raiden and Iroquois Pliskin with the tools needed to track down and deactivate each of the explosives, while providing support to the player via the codec. He eventually learns that the explosives Fatman planted were decoys used to activate the real bombs set to destroy the foundation of Shell 1 and Shell 2. Stillman races to the basement of Strut H, only to be caught in Fatman's trap: the bomb being equipped with a proximity sensor, detonates, killing Stillman. His character was most likely named after a character in Paul Auster's New York Trilogy. "
+
+char_pic35 = ""
+
+char_name36 = "Richard Ames"
+
+first_game36 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio36= "Colonel Richard Ames is a Secret Service agent and an operative for the Patriots. He previously served the Defense Intelligence Agency where he met Nastasha Romanenko. He was married to Nastasha for a while, but the two ended up divorcing. He was taken hostage during the Big Shell incident. In Metal Gear Solid 2, he met Raiden and then threatened by Revolver Ocelot, and then suddenly dies from an apparent heart attack. It is later revealed that he died from his nanomachines turning off his pacemaker thanks to a virus imitating FOXDIE put in place by the Patriots."
+
+char_pic36 = ""
+
+char_name37 = "James Johnson"
+
+first_game37 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio37= "James Johnson is the President of the United States during the events of Sons of Liberty. He is the primary hostage Raiden is sent to rescue in the Plant chapter. After a series of ordeals, Raiden finally meets the President in the Shell 2 Core. The President reveals that he was actually a willing accomplice in the terrorist act, his vital signs being the input codes to activate Arsenal Gear (the new version of Metal Gear housed in Big Shell), but was imprisoned after a conflict of interest with Solidus Snake as Johnson wanted power whereas his predecessor preferred rebelling altogether. After he reveals the truth about Arsenal Gear to Raiden, he learns that he was manipulated to revolt by the Patriots as part of the S3 Plan. He is then killed by Revolver Ocelot while arguing with Raiden to kill him to prevent the terrorists from launching a nuclear strike."
+
+char_pic37 = ""
+
+char_name38 = "Emma Emmerich"
+
+first_game38 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio38= "Emma Emmerich Danziger, nicknamed E.E., is an AI programmer and the stepsister of Hal Emmerich. When Emma was a child, her mother Julie Danziger married Huey Emmerich. Emma and Hal became very close as children and often swam together. When Hal was an adolescent, he was seduced by Emma's mother. Upon learning this, Emmerich committed suicide by drowning in the family's swimming pool and accidentally dragged Emma into the water in the process. She survived, but not without injury. Emma expected Hal to save her, but Hal was not aware that this was happening. After this, Emma developed a fear of water and became estranged from her stepbrother, blaming Hal for leaving the family afterwards. During the Plant chapter of Metal Gear Solid 2: Sons of Liberty, she is in charge of developing the AI that controls Arsenal Gear. She is escorted to the Shell 1 Core computer room by Raiden to download a virus into AI GW so that it will not be used by the terrorists, but is ambushed by Vamp on the oil fence. Raiden snipes Vamp, but before falling into the sea, Vamp fatally stabs Emma in the stomach. She later dies in the computer room confessing how she wanted to be closer to her stepbrother."
+
+char_pic38 = ""
+
+char_name39 = "Solidus Snake"
+
+first_game39 = "Metal Gear Solid 2: Sons of Liberty (2001)"
+
+bio39= "Solidus Snake, also known as George Sears, is the third clone of Big Boss. The character's existence was first alluded as the President of the United States during the original Metal Gear Solid. He makes his official first appearance as the main antagonist in Metal Gear Solid 2: Sons of Liberty, where his full codename and public identity are established. His design was based on Yoji Shinkawa's thoughts regarding how Solid Snake would look when older. During the events of Sons of Liberty, Solidus leads a terrorist takeover of the Big Shell (with Olga Gurlukovich and Revolver Ocelot) while posing as his brother Solid Snake. For combat, Solidus wears a powered suit.[92] After the Patriots removed his President status, Solidus turned against the organization and wished to form his own nation to leave his impact on the world. Revealed to be Raiden's adoptive father, Solidus tries to kill Raiden to use his foster son's nanomachines to lead him to the Patriots. However, Raiden defeats Solidus in their duel atop Federal Hall National Memorial, slicing into the spine of Solidus's powered exoskeleton with a high frequency blade. In Metal Gear Solid 4, Solidus's body is used when Liquid Ocelot hacks into the Patriots' AI."
+
+char_pic39 = ""
+
+char_name40 = "Zero"
+
+first_game40 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio40= "Zero, also known as Major Zero, Major Tom, and David Oh, is the founder of the FOX unit and the true main antagonist of the entire Metal Gear series. Introduced in Metal Gear Solid 3, he serves as the commanding officer of the FOX unit that communicates with Naked Snake via radio. In Portable Ops, Zero is arrested by the Pentagon after being convicted for the FOX unit's revolt but is exonerated afterwards.
+Metal Gear Solid 4 revealed that Zero was the founder of the reorganized American Philosophers to control the United States. However, a fallout causes Big Boss's demise then continuing controlling the world through AIs that would be the Patriots. He appears in the game's ending as a 105-year-old vegetable in a wheelchair and dies after Big Boss cuts off his oxygen supply and strangles him to facilitate his death. Metal Gear Solid V reveals that Skull Face infected Zero with a parasite that will put him into a coma, leaving the AIs to take over Zero's organization unopposed as the Patriots."
+
+char_pic40 = ""
+
+char_name41 = "Sokolov"
+
+first_game41 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio41= "Dr. Nikolai Stepanovich Sokolov, is a rocket scientist seen in Metal Gear Solid 3. Despite being cowardly and timid, he was able to defect to the United States two years before the events of the game, but was sent back to the USSR as a secret addition to the negotiations for ending the Cuban Missile Crisis. He develops the Shagohod. In the midsts of Naked Snake's retrieval of Sokolov, Colonel Volgin captures him and forces him to complete the weapon, and later seemingly dies of torture off-screen for trying to escape. Despite his apparent death, Sokolov returns in Portable Ops as the informant Ghost. After he survived and escaped to the US with the help of FOX's new commander Gene, he builds the first Metal Gear model, a quadrupedal model, but still assists Snake as a result of the danger the RAXA can make. He can also be recruited into Snake's team."
+
+char_pic41 = ""
+
+char_name42 = "The Boss"
+
+first_game42 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio42= "The Boss is a legendary American female soldier, founder and leader of the Cobra unit, the biological mother of Ocelot, mentor and mother figure to Naked Snake, and is known as the mother of the U.S. special forces. In June 1944, during World War II, she led the Cobra unit to victory at the Battle of Normandy.
+The Boss appears as the main antagonist in Metal Gear Solid 3: Snake Eater. She moved to the Soviet Union with Colonel Volgin alongside the Cobra Unit. Throughout the game, Naked Snake repeatedly encounters The Boss to kill her as ordered by his superiors. Following Volgin's death, The Boss reveals she is the daughter of one of the original members of the Philosophers behind the Philosophers' Legacy. After one final fight, Snake fights and kills The Boss who gives him the Philosophers' Legacy hidden by Volgin. The whole mission is later revealed to be a coverup by the United States so that The Boss would steal Volgin's treasure and give it to Snake but then die at his hands to avoid a conflict between America and the Soviet Union.
+EVA reveals in Metal Gear Solid: Peace Walker that The Boss infiltrated a sleeper agent into the USSR's OKB-1 from 1959 to 1961 to gather more information about the Sputnik program with a little help from the Philosophers. She was eventually commissioned into Project Mercury to test the Mercury capsule and launched into space at roughly the same time as Yuri Gagarin's flight on April 12, 1961. However, the capsule suffered heavy damage upon reentry. The Boss, dubbed within the program as the Mercury Lady, survived the crash but was rendered comatose for six months. All evidence of her role in the program was erased, including airbrushing her out of an official picture of the Mercury astronauts, she being the eighth member. The Boss's entire personality is also reconstructed in a special AI system developed by Strangelove for the Peace Walker weapon."
+
+char_pic42 = ""
+
+char_name43 = "Colonel Volgin"
+
+first_game43 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio43= "Yevgeny Borisovitch Volgin, known as Thunderbolt in the West, is a Stalinist GRU colonel with a penchant for wanton brutality who attempts to seize control of the Soviet Union during Metal Gear Solid 3: Snake Eater by overthrowing Nikita Khrushchev and installing Leonid Brezhnev and Alexei Kosygin in his place. Furthermore, he was a mastermind behind the Katyn Forest Massacre. His body carries an electric charge of ten million volts, which was speculated by Soviet scientists to be the result of Electrokinesis. He uses it chiefly for fighting and for torture. He battles Naked Snake and EVA, both in and atop the Shagohod. As it begins to rain, he is at first unafraid but is rapidly struck by a bolt of lightning and left comatose and near death. After being retrieved and experimented on by Russian scientists, the character returns as the Man on Fire in Metal Gear Solid V: The Phantom Pain, where he desires revenge for his defeat; this desire is so great that it is the only thing keeping him alive, and his appearance as a man made up entirely of fire is the physical manifestation of his desire. His appearance enables him to convert the energy from firearms and explosive rounds into powerful attacks. However, he eventually dies in peace in a final confrontation, where it is implied that he deduced Venom Snake is not the target of his vendetta."
+
+char_pic43 = ""
+
+char_name44 = "Para-Medic"
+
+first_game44 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio44= "Para-Medic is a FOX support team member that provides medical information. Although it is set before the modern use of the word paramedic, her codename instead comes from a portmanteau of parachute and medic. In Metal Gear Solid 3, she provides Naked Snake with surgical information as well as general information on the local flora and fauna. She is also an avid movie-watcher, and enjoys discussing her favorite films with despite Snake's disinterest. In Portable Ops, Para-Medic can be recruited into Snake's team. Metal Gear Solid 4 revealed that Para-Medic was one of the founders of Zero's cause and the head of the Les Enfants Terribles project. In addition, she is actually Dr. Clark, a character mentioned in the original Metal Gear Solid that's responsible for Gray Fox's revival and was in-turn murdered by the original version of Cyborg Ninja (which was wanted), and was referred to as a male by Naomi Hunter; this is later explained in The Phantom Pain when Huey Emmerich tells Venom Snake that Dr. Clark is so secretive that nobody knows anything about her, including gender."
+
+char_pic44 = ""
+
+char_name45 = "EVA"
+
+first_game45 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio45= "EVA, also known as Big Mama, is a triple agent that assists Naked Snake in Metal Gear Solid 3: Snake Eater, and later serves as the mother of Solid Snake and Liquid Snake."
+
+char_pic45 = ""
+
+char_name46 = "Sigint"
+
+first_game46 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio46= "Sigint is a technical advisor later associated with DARPA. In Metal Gear Solid 3, he is a member of FOX that provides technical support for Naked Snake. In Portable Ops, Sigint can be recruited into Snake's team. In Peace Walker, Sigint is implied to have contributed to Hot Coldman's various Peace Walker AIs for the Cipher organization. Metal Gear Solid 4 revealed that Sigint was one of the founding members of Zero's cause and oversaw the AI proxies that would control governments and military. He was also revealed to be Donald Anderson, the DARPA Chief from the original Metal Gear Solid that was killed by Revolver Ocelot and made to look like an accident; Sigint's death was part of EVA's and Ocelot's plan to weaken Zero's fraction."
+
+char_pic46 = ""
+
+char_name47 = "The Pain"
+
+first_game47 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio47= "The Pain has the ability to control hornets at his will, through the buzzing of a queen hornet that he keeps in his backpack. Apart from his hornets, The Pain is also equipped with a Tommy gun and grenades, using his hornets in conjunction with these weapons. He also uses his hornets to shield himself and create the form of a body double to confuse and draw his opponents into the open. In Metal Gear Solid 3, he fought and was defeated by Naked Snake."
+
+char_pic47 = ""
+
+char_name48 = "The Fear"
+
+first_game48 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio48= "The Fear is a member of the Cobra unit known for his superhuman speed and agility, as well as his freakish, fearsome appearance. Capable of dislocating his joints at will, he is able to crawl, walk on water, flip, leap extremely quickly in the manner of a spider, and also climb and jump around in trees with ease. He mainly uses a crossbow in battle, coating his bolts in the venom of the Brazilian wandering spider, setting them on fire or even outfitting them with explosives. He uses a variety of wires and ropes to enhance his mobility. On top of his incredible agility, he also uses Stealth camouflage to make himself nearly invisible. At the beginning of the battle in Metal Gear Solid 3, he shoots Naked Snake in the leg with a poisoned crossbow bolt, but wants to kill Snake himself rather than let the venom do the job for him. The poison begins to make Snake hallucinate, giving The Fear a distinct advantage, though Snake still manages to defeat him."
+
+char_pic48 = ""
+
+char_name49 = "The End"
+
+first_game49 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio49= "The End is a member of the Cobra unit with exceptional sniping skills, born in the early 1860s, and the only member of the unit without an emotion-based codename, though it is explained in the game that it signifies true oblivion. The End is a venerable expert sniper, but is visibly vulnerable as a result of his age. However, he is capable of photosynthesizing sunlight to sustain his life and go for days without food or water, later explained in The Phantom Pain as the effect of a species of parasite that lives in his body. He has a pet parrot (an Alexandrine parakeet) who can alert him to Snake's presence. The End is the only member of the Cobras who will not kill the player under any circumstances; he only uses tranquilizing rounds and will throw Snake in a jailcell when he is defeated. The strategic sniper fight between Naked Snake and The End in Metal Gear Solid 3 was developed by Kojima who wanted to bring a completely new style of boss battle to the series. However, the fight can be avoided if Snake kills a defenseless The End shortly before, or if the player saves during the fight and waits a week (or sets the system clock a week ahead), in which case The End dies of old age. In Peace Walker, The End's voice can sometimes be heard over the Codec during ghost missions, and Snake comments numerous times during mission briefings asking Kaz Miller if he saw any parrots with the enemy snipers and scouts."
+
+char_pic49 = ""
+
+char_name50 = "The Fury"
+
+first_game50 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio50= "The Fury is a pyromaniac and former Soviet cosmonaut. He utilizes a flame-resistant Soviet space suit in conjunction with a jet pack and a powerful flamethrower, both of which are powered by liquid rocket fuel UDMH. His codename reflects the unmitigated fury he feels towards the world while he is fighting. In Metal Gear Solid 3, he fought and is defeated by Naked Snake."
+
+char_pic50 = ""
+
+char_name51 = "The Sorrow"
+
+first_game51 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio51= "The Sorrow was a powerful spirit medium and a former member of the Cobra unit, who used his psychic powers to aid his fellow soldiers on the battlefield. After being romantically involved with The Boss, he was the father of her child. After the ideological rift created by the Cold War, loyalties changed with him and The Boss each taking their respective sides. The Boss kills him in 1962 for making a double agent out of a sleeper agent she sent to OKB-1 to gather data on the USSR's space program. He makes many hidden appearances in ghost form throughout the game's cut scenes. In Metal Gear Solid 3, after escaping from Groznyj Grad and suffering a near-death experience, Naked Snake encounters The Sorrow while being forced to wade through an endless river swarming with all of the enemies that Snake has killed up to that point."
+
+char_pic51 = ""
+
+char_name52 = "Raikov"
+
+first_game52 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio52= "Ivan Raidenovitch Raikov is a high-ranking officer within Groznyj Grad. He is implied to be Colonel Volgin's secret lover, and consequently has colonel-class authority despite only having a rank of major. The character is a parody of Raiden. The player is also able to wear a mask to impersonate him as Kojima noted that there were fans who wanted to play as Raiden in Metal Gear Solid 3. Besides impersonating Raikov, Naked Snake also has to knock him out to take his uniform and go to Groznyj Grad with the player also being given the choice of killing him. According to Kojima, the reason why he left Raikov's fate up to the player was largely because of Raiden's controversial popularity, where he'd allow the player, depending on whether their views of Raiden were positive or negative, to spare or kill Raikov, respectively. Raikov appears as a secret character in Portable Ops as being exiled to Colombia by the Soviet military after the fallout of Operation Snake Eater runs him afoul of the Kremlin."
+
+char_pic52 = ""
+
+char_name53 = "Granin"
+
+first_game53 = "Metal Gear Solid 3: Snake Eater (2004)"
+
+bio53= "Aleksandr Leonovitch Granin is the director of OKB-812 (also known as the Granin Design Bureau). He is the man who originally came up with the concept of bipedal walking tanks (the blueprints for Metal Gear REX and Metal Gear D). He supplies Naked Snake with the key to the door near the warehouse, but dies under Volgin's torture."
+
+char_pic53 = ""
+
+char_name54 = "Jonathan"
+
+first_game54 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio54= "Jonathan is one of the Red Army soldiers stationed at the San Hieronymo base. He is the first of the enemy soldiers to be recruited by Naked Snake. After meeting Snake and Roy Campbell, Jonathan says the Red Army personnel were assigned to build the base as an alternate strategic missile site after the Cuban Missile Crisis; detente and the USSR's commitment to the SALT negotiations resulted in the abandonment of the base, triggering the soldiers' decision to join Gene. Jonathan is left impressed with Snake's idealism and also helps in treating Campbell's bout with malaria. As Gene manipulates the Soviet soldiers into killing each other later in the game, Jonathan takes a few rounds meant for Snake and dies in Snake's arms, leading Snake to scream out in sorrow and rage. Jonathan's death comes to traumatize Snake deeply, further shaping the ideals and principles that he comes to uphold as Big Boss."
+
+char_pic54 = ""
+
+char_name55 = "Colonel Skowronski"
+
+first_game55 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio55= "Skowronski is a commander of the Red Army base in San Hieronymo. A World War II veteran and former fighter pilot, Naked Snake finds him hiding aboard a ship in the harbor that housed his fighter plane collection. It is revealed that the colonel had been drinking after Gene's men took over the base and even turned the Red Army troops against him. Skowronski dies in an attempt to kill Gene using RAXA. When it shuts down, Ursula telekinetically picks him off the cockpit and drops him to his death."
+
+char_pic55 = ""
+
+char_name56 = "Python"
+
+first_game56 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio56= "Python is one of FOX's original members revealed to have worked alongside Naked Snake during the early stages of the US advisory effort in Vietnam. However, he was severely injured during a mission with the Civilian Irregular Defense Group that he lost the ability to regulate his body temperature. The US government operated on him to stabilize his body temperature, eventually putting him in a Sneaking Suit filled with liquid nitrogen and several needles on his head to vent the excess heat. The CIA uses him as a counterpart to Snake in case he rebelled. Python joins the player's pool if his defeated by nonlethal means, but will burn to death if he is killed."
+
+char_pic56 = ""
+
+char_name57 = "Elisa and Ursula"
+
+first_game57 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio57= "Elisa and Ursula are split personalities of a teenage girl raised in East Germany to nuclear physicists who worked in the USSR. She is revealed to be a survivor of the 1957 Kyshtym disaster; the radioactive fallout triggered her psychic abilities. The girl went back to East Germany and underwent numerous ESP and psychic tests. The testing enabled the girl to create split personalities that people can mistake them as twins due to their different hair colors (Elisa has gold hair, where Ursula's hair is silver). Gene rescued her during a mission in 1966 and later trained her personas – Elisa in medicine and Ursula in combat abilities. Over the course of the game, Elisa helps Naked Snake. However, the Ursula personality kicks in during Snake's showdown with Metal Gear RAXA. The combined personalities attempt to stop Gene, 'she' is killed. Her last words to Snake cryptically point to important developments in later games."
+
+char_pic57 = ""
+
+char_name58 = "Cunningham"
+
+first_game58 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio58= "Lt. Cunningham is an African-American soldier and FOX's resident interrogation specialist that goes by the codename Boa. After losing his leg due to unspecified reasons and getting demoted to desk work by the CIA, the Department of Defense taps him to besmirch the CIA's reputation, a job he accepted due to desiring revenge for his demotion. This enables him to join Gene's revolt and later to interrogate Naked Snake about the Philosophers' Legacy. Snake defeats him upon learning of the DOD's plans, with his flying platform exploding shortly thereafter, although not before he attempts to destroy the base with a Davy Crockett round in an attempt to ensure Snake died with him."
+
+char_pic58 = ""
+
+char_name59 = "Gene"
+
+first_game59 = "Metal Gear Solid: Portable Ops (2006)"
+
+bio59= "Gene is the commander of FOX during Metal Gear Solid: Portable Ops. Having joined the unit under the codename Viper, he proves his worth by rescuing Sokolov and Elisa during missions to Eastern Europe. A doctor by trade with a moderate degree of political science knowledge, he gradually undermines Major Zero's authority and prepares his own rebellion. Gene participates in the Successor Project, a special program designed to create a military officer modeled after The Boss and highly educated in military strategy and tactics. The program results in Gene developing enhanced CQC abilities and powers of persuasion/mild telepathic powers. Naked Snake kills him after Gene reveals his plans behind the takeover of the San Hieronymo base. Recognizing Snake's combat skills, Gene bequeaths to Snake all the resources he had amassed for the military force Army's Heaven."
+
+char_pic59 = ""
+
+char_name60 = "Liquid Ocelot"
+
+first_game60 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio60= "Liquid Ocelot is an amalgam of Revolver Ocelot and Liquid Snake, and the main antagonist of Metal Gear Solid 4: Guns of the Patriots. An alternate personality, Ocelot deliberately uses self-hypnosis and nanomachines to serve as Liquid's mental doppelgänger to trick the Patriots' AIs. Liquid establishes a new version of Outer Heaven as a mother company that runs the four largest PMCs, fighting for the Patriots' control over the world. After hijacking the Patriots' systems, Liquid's PMCs engage Old Snake. After Snake and Otacon use Naomi Hunter's FOXALIVE virus to delete the Patriots' AIs, Liquid challenges Snake to a fistfight and appears to die from exhaustion after the final fight, however, his death was actually caused by the new FOXDIE strain that Drebin injected into Snake."
+
+char_pic60 = ""
+
+char_name61 = "Sunny"
+
+first_game61 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio61= "Sunny Emmerich is Olga Gurlukovich's daughter that was kidnapped by the Patriots to manipulate her mother during the Plant Chapter of Metal Gear Solid 2. Afterwards, Raiden rescued her from the Patriots, leaving her in Otacon's care. By the time of Metal Gear Solid 4, she is a gifted computer programmer where it is heavily implied that her status as prodigy is the result of genetic engineering experiments done to her at Area 51 while she was in possession of the Patriots. She along with Naomi Hunter designs the FOXALIVE virus which Old Snake uses to disable the Patriots' AIs. Sunny returns in Metal Gear Rising: Revengeance, having been adopted by Otacon. She did attend school after becoming free of the Patriots' AIs, but was considered too advanced; after earning multiple degrees, she was hired by Solis."
+
+char_pic61 = ""
+
+char_name62 = "Drebin"
+
+first_game62 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio62= "Drebin is a weapons launderer that's usually accompanied by his pet monkey Little Gray. In Metal Gear Solid 4, he assists Old Snake by disabling ID-tagged weapons taken from PMC troops. He also provides exposition on the origins of each of the Beauty and the Beast members. Drebin is actually a spy for the Patriots assigned to help Snake defeat Liquid Ocelot. He injects Snake with a syringe with nanomachines that allow Snake to use Drebin's weapons; in addition to secretly containing a new strain of FOXDIE programmed to kill EVA, Ocelot and Big Boss."
+
+char_pic62 = ""
+
+char_name63 = "Jonathan"
+
+first_game63 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio63= "Jonathan is a hulking Korean-American who serves as the Rat Patrol team's heavy weapons specialist and has a mohawk in the shape of an exclamation mark."
+
+char_pic63 = ""
+
+char_name64 = "Ed"
+
+first_game64 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio64= "Ed is an African-American who serves as the Rat Patrol team's sniper and Meryl Sliverburgh's second-in-command. He is a tribute to the Policenauts character of the same name."
+
+char_pic64 = ""
+
+char_name65 = "Laughing Octopus"
+
+first_game65 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio65= "Laughing Octopus wears a special cybernetic suit that can imitate the appearance of her surroundings or other people, allowing her to blend in before attacking with powerful mechanical tentacles. She was born and raised in a small Scandinavian hamlet known as the Devil's Village, where the residents habitually eat octopus. A nearby cult took offense to the village's diet and attacked, sparing few, including the young girl. On pain of death, they tortured her into killing her entire family while laughing. This has utterly numbed her to bloodshed and has spawned an obsession with laughter, particularly during battle."
+
+char_pic65 = ""
+
+char_name66 = "Raging Raven"
+
+first_game66 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio66= "Raging Raven is the only member of the Corps with true flying capabilities that utilizes UCAVs and a grenade launcher to attack her enemies. Born in Aceh, Indonesia, she was taken as a prisoner of war as a child. After enduring months of torture and starvation, her captors abruptly abandoned the prison, leaving her and the other child prisoners to be eaten alive by ravens. She was the last living child; though instead of eating her, the ravens peck away her bonds. She finds her captors' base camp and kills all soldiers and civilians present."
+
+char_pic66 = ""
+
+char_name67 = "Crying Wolf"
+
+first_game67 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio67= "Crying Wolf  is the Corps' strongest member as she can attack with a railgun or sheer brute force. She is also endowed with a strong sense of smell, enough to identify and track her quarry by scent in a snowstorm. She was born in an unnamed country ripped by civil war. After her family was killed in an attack, she fled the village with her baby brother and became a refugee. When hiding from an enemy unit in a shack, her brother began to cry; she covered his mouth to silence him and accidentally killed him. Upon reaching a refugee camp, she was driven insane by her grief and by the cries of children. She experienced visions of a wolf killing the children of the camp; in reality, it was she who did so. In Metal Gear Solid 4, she does not accept that she killed the children until her fight with Old Snake. After their fight, she is taken away by one of Sniper Wolf's wolves, with Otacon implying the wolf carrying her was Sniper Wolf's spirit."
+
+char_pic67 = ""
+
+char_name68 = "Screaming Mantis"
+
+first_game68 = "Metal Gear Solid 4: Guns of the Patriots (2008)"
+
+bio68= "Screaming Mantis is the Corps' leader. Able to float by using unknown abilities, she has the power to crush people at will and manipulate soldiers to do her bidding, including killing their former allies. She has two puppets shaped like previous Metal Gear Solid bosses Psycho Mantis and The Sorrow. It is revealed that the Psycho Mantis puppet is used to control and manipulate living people while The Sorrow puppet can be used to manipulate dead bodies. However, her powers are only applicable on people implanted with nanomachines and cannot affect people who can suppress nanomachine activity. After her fight with Solid Snake, it is revealed that Psycho Mantis was controlling her mind as a result of her insanity."
+
+char_pic68 = ""
+
+char_name69 = "Amanda"
+
+first_game69 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio69= "Amanda Valenciano Libre assumes command of the FSLN after her father (their leader) is killed. After many of her members were forced out of Nicaragua by government forces months before the events of the game, the KGB comes to the Sandinistas' aid by having them operate a banana plantation that is actually a front for drug-trafficking operations to generate funds for their rebel activities. Amanda also shows a romantic interest in Big Boss when Big Boss frees the Sandinista survivors from the Peace Sentinels. Towards the end of the game, Amanda leads the Sandinistas into fighting the KGB. In the game, the player can use Amanda to motivate former guerrillas recruited into the MSF. Amanda does not appear in Metal Gear Solid V: Ground Zeroes, having left Mother Base to work on MSF's Cuban operations."
+
+char_pic69 = ""
+
+char_name70 = "Chico"
+
+first_game70 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio70= "Ricardo Valenciano Libre, nicknamed Chico, is Amanda's younger brother. During Peace Walker, he tries to prove himself to his sister and the FSLN rebels despite his age. An argument results in Chico wandering around the forest and his capture by the Peace Sentinels. He also talks to Big Boss about sightings of the Peace Walker AI weapon (which he calls El Basilisco). Chico has an interest in cryptozoology, is the one who briefs Big Boss on Monster Hunter missions and is in love with Paz. In Ground Zeroes, Chico is imprisoned and tortured in the military camp Camp Omega after trying to rescue Paz. It is also implied by tapes that he was forced to have sexual intercourse with Paz. He is aboard Big Boss's helicopter when it crashes into the Caribbean Sea. It is later revealed in The Phantom Pain that he did not survive.
+Despite his off-screen death in the final game, Chico was planned to appear as an adult in The Phantom Pain during development, but only concept art was produced."
+
+char_pic70 = ""
+
+char_name71 = "Huey"
+
+first_game71 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio71= "Dr. Emmerich, nicknamed Huey, is a wheelchair using scientist who was born paraplegic due to having an abnormal spine. In addition to being the son of a Manhattan Project scientist, he is the father of Hal Emmerich. Previous games alluded his character; Metal Gear Solid revealed he was born on the same day as the Hiroshima attack, Metal Gear Solid 2 revealed that he committed suicide by drowning after finding out that his son was having an affair with his second wife, and Metal Gear Solid 3 alluded to the character as Granin's friend in the United States. In Metal Gear Solid: Peace Walker, he and Strangelove are responsible for building the Peace Sentinels' AI weapons and later MSF's own Metal Gear ZEKE. In a personal letter he wrote to Strangelove, which he asks Big Boss to give to, it is revealed that they have worked together while in NASA and Huey was expressing much interest in Strangelove. Huey remains with Big Boss and MSF during the events of Metal Gear Solid V: Ground Zeroes, continuing work on Metal Gear ZEKE and working to hide both it and its nuclear capabilities from the United Nations. He is present at Mother Base when it is attacked by the XOF forces, though Metal Gear Solid V: The Phantom Pain confirms that Emmerich managed to escape the chaos, eventually developing a cybernetic leg-harness to gain the ability to walk. Emmerich maintains that he was misled by Cipher and abducted to work on the new model Metal Gear Sahelanthropus in Afghanistan, where he is rescued and detained by Diamond Dogs. He resumes his work for Diamond Dogs, but faced with constant interrogation and lingering doubts about his allegiances, he ultimately comes to view Diamond Dogs as being no different to Coldman or Cipher. Emmerich is accused by Diamond Dogs of murdering Strangelove and facilitating the attack on Mother Base for Cipher in exchange for his own safety, and is later found guilty of triggering a deadly new mutation in the vocal cord parasites that results in Venom Snake being forced to execute his own infected men and prevent them from escaping into the world. As punishment, Snake chooses to exile Emmerich from Diamond Dogs and sends him away in a single small lifeboat. Emmerich is forced to dump his leg-harness into the water to prevent the lifeboat from sinking, leaving him wheelchair-bound once more."
+
+char_pic71 = ""
+
+char_name72 = "Coldman"
+
+first_game72 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio72= "Hot Coldman is depicted as a former director of the CIA sent to manage the CIA's Latin America operations, and is one of the main antagonists in Peace Walker. Because of bitterness over the demotion, Coldman plans to use the Peace Sentinels and the Peace Walker Project to regain his status as a power player in Washington. The true reason behind his exile was because he planned Operation Snake Eater. Late in the game, Coldman dies of Zadornov's gunshots, after inputting Peace Walker's nuclear launch codes and leaking the false data to NORAD."
+
+char_pic72 = ""
+
+char_name73 = "Zadornov"
+
+first_game73 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio73= "Vladimir Aleksandrovich Zadornov is one of the main antagonists in Metal Gear Solid: Peace Walker. The character initially disguised himself as Ramon Galvez Mena, a professor at the University of Peace. He possesses a red bionic right hand with built-in lighter and also can be launched like a rocket. He and his student Paz Ortega Andrade visit the Militaires Sans Frontières' base in Colombia to recruit MSF's services. Galvez helps out the MSF as they slowly uncover the Peace Sentinels' true motives in Costa Rica. He later unmasked himself as a KGB intelligence operative when Coldman prepares the Peace Walker to attack from inside a US base in Nicaragua. The MSF and FSLN capture him and lock him up at Mother Base, but he breaks out on several occasions and forces Big Boss to recapture him. He is eventually killed by Big Boss in self-defense."
+
+char_pic73 = ""
+
+char_name74 = "Strangelove"
+
+first_game74 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio74= "Strangelove is a British AI expert hired to work in the Peace Walker project and the mother of Hal Emmerich. During her stint with NASA in the late 1950s, Strangelove met The Boss. She later met Huey while working in the Mercury program. Her experience with The Boss and subsequent work in ARPA inspires her to create Peace Walker's AI matrix with The Boss's personality years later during Peace Walker. At the end of the game, she joins the MSF in helping create Metal Gear ZEKE's AI matrix. Strangelove was not present in Ground Zeroes, having left Mother Base a week before the IAEA inspection notification arrived due to the AI department not coming up with anything as well as ZEKE being completed. A cassette tape in The Phantom Pain reveals that she contacted Amanda after the Sandinistas' victory in Nicaragua and asked permission to retrieve the Mammal Pod from the sunken remains of Peace Walker. She began using this as a basis for the Patriots' AI system, which she developed at Zero's request, and she eventually married Huey and had their son Hal. Despite this, Strangelove reveals that she never loved Huey, and only wanted someone to conceive a child that she would see as hers and The Boss's child. Even after her death – Strangelove couldn't let go of The Boss and always claimed to be forever in love with her idol. When Huey later attempted to use Hal as a test subject for Metal Gear Sahelanthropus, Strangelove intervened and the two began to argue. As a result, Strangelove was locked inside the Mammal Pod by Huey who left her to suffocate. The Mammal Pod is later recovered and used as evidence against Huey during his interrogation."
+
+char_pic74 = ""
+
+char_name75 = "Cécile"
+
+first_game75 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio75= "Cécile Cosima Caminades is a French ornithologist. In Peace Walker, she is caught while trying to record quetzal sounds near an Incan ruin where the Peace Walker Project's AI laboratory is located. Cécile also was influenced by the May 1968 events in France, similar to other Parisian women at the time. She is also named after and visually based on Cécile Caminades, an employee from the Paris branch of Konami Digital Entertainment. Cécile did not appear in Ground Zeroes, as she had been evacuated from Mother Base and returned to Paris, France in preparation for the then-upcoming IAEA inspection."
+
+char_pic75 = ""
+
+char_name76 = "Paz"
+
+first_game76 = "Metal Gear Solid: Peace Walker (2010)"
+
+bio76= "Paz Ortega Andrade is a student at the University of Peace. In Peace Walker, she is depicted in the game as an innocent schoolgirl. But in the game's true ending, Paz is revealed to be an agent of Cipher (Zero) (her real name is revealed to be Pacifica Ocean), who hijacks Metal Gear ZEKE and tries to launch its nuclear warhead at the US East Coast with the intention of framing the Militaires Sans Frontieres as being an extremist cult under Cipher's orders. Big Boss defeats her and she is thrown into the water from the force of ZEKE's explosion, although Big Boss suspected that there was a possibility that she survived. Paz provides commentary about her deep-cover mission in a ten-part series of audio tapes called Paz's Diary. In the tapes, Paz talks about life in Mother Base and her fears about a strong reprisal from Cipher if she blew her cover. The last tape is made just before she activates Zeke.
+In Ground Zeroes, Paz is found alive drifting in the Caribbean before being captured by XOF and brought to Camp Omega. During her interrogation by Skull Face, she undergoes extreme torture, multiple rapes, and the surgical implanting of explosive devices in her abdomen and womb. After learning of her survival, Big Boss is sent to retrieve her and Chico from the camp, believing her to be instrumental in finding and stopping Cipher. Upon rescuing the two, however, he and Chico discover the surgical scars from one of the bombs inside the unconscious Paz, and are forced to remove it. While attempting to escape XOF's assault on Mother Base, Paz awakens and reveals the presence of the second bomb before throwing herself from the helicopter in an attempt to save the others from the subsequent explosion, which appears to kill her.
+In The Phantom Pain, Venom Snake finds Paz alive and recovering on Mother Base, with Miller and Ocelot explaining that the second bomb was actually removed as well, though Paz was not aware of this when she jumped from the helicopter, and the explosion was actually caused by an enemy rocket launcher. Paz fell into the ocean, but managed to survive and was later brought back to Mother Base. However, the impact caused her to suffer amnesia due to dissociative identity disorder, forgetting everything about Cipher and believing herself to still be a student in 1974. However, when she removes a bomb from her stomach in front of him, Venom Snake realizes that this is just a hallucination brought on by guilt over not being able to save her, and finally comes to terms with her death."
+
+char_pic76 = ""
+
+char_name77 = "Boris"
+
+first_game77 = "Metal Gear Rising: Revengeance (2013)"
+
+bio77= "Boris Vyacheslavovich Popov is the president of Maverick and a former Russian Army soldier. Between the Big Shell incident and Liquid Ocelot's uprising, he helped Raiden rescue Sunny from the Patriots at Area 51, having once been friends with her grandfather, Sergei Gurlukovich. He later founded Maverick after the fall of the Patriots, taking in former members of Big Mama's Paradise Lost army and recruiting Raiden to their ranks."
+
+char_pic77 = ""
+
+char_name78 = "Kevin"
+
+first_game78 = "Metal Gear Rising: Revengeance (2013)"
+
+bio78= "Kevin Washington is a military strategist who briefs Raiden on his missions and provides additional combat intelligence. Prior to his tenure with Maverick, he worked in disarmament, demobilization and reintegration at a NGO with ties to the United Nations, but after meeting Boris and seeing how ineffective the UN was at maintaining DDR, he left and joined Maverick instead."
+
+char_pic78 = ""
+
+char_name79 = "Courtney"
+
+first_game79 = "Metal Gear Rising: Revengeance (2013)"
+
+bio79= "Courtney Collins is Maverick's lead data analyst. She went to the same university as Kevin, who would later recommend Maverick to her following her graduation."
+
+char_pic79 = ""
+
+char_name80 = "Doktor"
+
+first_game80 = "Metal Gear Rising: Revengeance (2013)"
+
+bio80= "Wilhelm Voigt, known as Doktor, is a German cybernetics expert who helps construct Raiden's new cyborg body. He originally served as a walking-weapons researcher in East Germany, but was left jobless after the Berlin Wall fell. He was later hired by a prosthetics laboratory in Dortmund and rises to prominence thanks to his knowledge of robotics and engineering. He is brought on as an adviser to Maverick to provide information on cyborg soldiers, as well as to build Raiden a new body and train him in its use."
+
+char_pic80 = ""
+
+char_name81 = "Jetstream Sam"
+
+first_game81 = "Metal Gear Rising: Revengeance (2013)"
+
+bio81= "Samuel Rodrigues is a master of a Brazilian fighting technique called the New Shadow School, which had some derivations from a similar Japanese fighting style. Trained in swordsmanship by his father, who was killed by a former pupil under orders from the local drug cartel, Sam inherits his Muramasa sword and becomes a vigilante and mercenary before being forced into service to Desperado by Armstrong. Known by the callsigns Jetstream and Minuano, Rodrigues throws his lot with Desperado for most of the game. Raiden's rivalry with Sam is a major driving force of the plot. Sam is eventually killed by Raiden in a duel, but gifts Raiden his sword, which is eventually used in the final battle with Armstrong. An additional chapter released as downloadable content details the backstory of how Sam joined Desperado."
+
+char_pic81 = ""
+
+char_name82 = "Sundowner"
+
+first_game82 = "Metal Gear Rising: Revengeance (2013)"
+
+bio82= "Sundowner is Desperado's unofficial leader and part of the Winds of Destruction, a team of elite operatives. His name is derived from a wind condition that occurs in Southern California. Born into poverty in Alabama, he joined the military during his early adulthood. He participated in several conflicts before leaving the service to become a mercenary for various PMCs until the fall of SOP, at which point he became part of Desperado. He wears a series of explosive shields, and his main weapons are two high-frequency machetes that combine into a pincer known as Bloodlust. He is killed by Raiden during his assault on World Marshall."
+
+char_pic82 = ""
+
+char_name83 = "Mistral"
+
+first_game83 = "Metal Gear Rising: Revengeance (2013)"
+
+bio83= "Mistral is the second member of the Winds of Destruction trio, named after the dry northern winds that blow from the Alps to the Mediterranean. Born in Algeria to French and Algerian parents, she was orphaned as a child during the Algerian Civil War, finding and butchering those responsible years later. She briefly serves in the French Foreign Legion before being recruited into Desperado by Armstrong. Her cybernetic body is capable of hosting multiple limbs taken off Dwarf Gekkos. Her main weapon is a long staff that also acts as a whip known as L'Etranger. She is killed by Raiden during a mission in Abkhazia after being doused in liquid nitrogen."
+
+char_pic83 = ""
+
+char_name84 = "Monsoon"
+
+first_game84 = "Metal Gear Rising: Revengeance (2013)"
+
+bio84= "Monsoon is the third member of the Winds of Destruction, named after the seasonal wind systems that occur in West Africa and Australasia. His most prominent ability is to magnetically dislocate his entire body to attack from a distance. He can also use smoke grenades for sudden attacks, and carries a pair of dual sais known as Dystopia. His personality is that of a nihilistic, misanthropic sociopath, which is strongly implied to be the result of his being a survivor and victim of the Khmer Rouge's reign of terror."
+
+char_pic84 = ""
+
+char_name85 = "Bladewolf"
+
+first_game85 = "Metal Gear Rising: Revengeance (2013)"
+
+bio85= "Bladewolf, also known as the IF Prototype LQ-84i, is an unmanned AI weapon in Desperado's arsenal. When Raiden defeats the machine, Maverick rebuilds it as an ally. Nearly being destroyed during the battle with Armstrong, he later goes to live with Sunny at SOLIS. An additional chapter released as downloadable content details part of Bladewolf's history with Desperado prior to his first encounter with Raiden."
+
+char_pic85 = ""
+
+char_name86 = "Khamsin"
+
+first_game86 = "Metal Gear Rising: Revengeance (2013)"
+
+bio86= "Khamsin is an unofficial fourth member of the Winds of Destruction (only appearing in the Bladewolf DLC package), named after a hot, dry, dusty south-north wind in North Africa and the Middle East. He was discharged from the Marines due to friction between him and his teammates, and is held in similarly low regard by Desperado. Bladewolf is tricked by Mistral into killing Khamsin, whom she believed to be becoming a problem."
+
+char_pic86 = ""
+
+char_name87 = "Senator Armstrong"
+
+first_game87 = "Metal Gear Rising: Revengeance (2013)"
+
+bio87= "Steven Armstrong is a Colorado senator and the primary backer of both Desperado Enforcement LLC and World Marshal Inc. He seeks to be elected as president of the United States in order to rebuild the country from within, purging those too weak or impoverished to contribute to society and replace it with cyborgs. He uses nanomachines to enhance his strength and change his skin to metal, reducing the effectiveness of attacks. He attempts to use Metal Gear EXCELSUS to assassinate the US president in Pakistan, but the weapon is destroyed by Raiden, who ultimately kills him. In the Jetstream DLC, Armstrong is revealed to be the one who cut off Sam's arm. Armstrong is voiced by Unsho Ishizuka in Japanese and by Alastair Duncan in English."
+
+char_pic87 = ""
+
+char_name88 = "Venom Snake"
+
+first_game88 = "Metal Gear Solid V: The Phantom Pain (2015)"
+
+bio88= "Punished Venom Snake, also referred to as Ahab and Big Boss's phantom, is the protagonist of Metal Gear Solid V: The Phantom Pain and leader of the mercenary unit Diamond Dogs. He is the lead playable character in the game and may be outfitted with many different situational garbs. Snake is initially led to believe that he is Big Boss, but the ending reveals that he is actually a player-created avatar, whose true name, appearance and date of birth are determined at the start of the prologue. Snake is in fact the faceless medic seen at the end of Ground Zeroes, one of Big Boss's most loyal soldiers, but fell into a coma after taking a blast meant for Big Boss. During the coma, he was subconsciously brainwashed into believing he was Big Boss and underwent facial reconstruction in order to serve as a decoy. However, he is distinguished with his bionic left arm, the numerous facial scars and the shrapnel sticking out from the right side of his forehead. The player is given the option to use the avatar's natural face in place of Snake's after clearing the game. Venom Snake serves as Big Boss's decoy throughout The Phantom Pain and following the events where he's retroactively established to be Solid Snake's first enemy fought at the end of the original Metal Gear game; this retcons prior statements in which Big Boss is said to have survived the first Metal Gear game via cyborg implants."
+
+char_pic88 = ""
+
+char_name89 = "Skull Face"
+
+first_game89 = "Metal Gear Solid V: The Phantom Pain (2015)"
+
+bio89= "Skull Face is the central antagonist of Metal Gear Solid V: Ground Zeroes and Metal Gear Solid V: The Phantom Pain. The commander of the mysterious Special Forces XOF unit, he is distinguished by his heavily scarred face, hairless head, and his choice of tailored suits over combat fatigues. His identity and nationality are initially unknown, and he claims to have forgotten his native language, though he is heard to speak Hungarian in a cassette recording and is later revealed to have been born in Transylvania before it reverted to Romanian control. These early years were instrumental in forming his identity or lack thereof; unable to establish a consistent identity, Skull Face came to resent cultural imperialism and ultimately the ideology of Cipher. His injuries were sustained when a rapeseed oil factory his parents worked in was bombed on suspicion of manufacturing weapons, an incident he describes as an atrocity before admitting the suspicions were correct; he characterizes the incident as a case of the ends justifying the means. Following the fire, he was taken to the Soviet Union and subject to an early form of parasite therapy whereby parasitic organisms were introduced to his body to keep him alive, and was later infected with one of Code Talker's parasites that made it impossible for him to speak his mother tongue. He eventually became a spy and assassin apparently specializing in poisons, killing Joseph Stalin in revenge for his subjugation of Romania. Skull Face considers the fire to have burned the humanity out of him, and tortures his captives to the brink of death in order to see when their hope is extinguished, believing that he can discover the source of his own hope and regain his humanity. Initially, Skull Face became an agent of XOF, an organisation created by Zero to covertly help the Fox unit in mission providing Intel. Skull Face provided support to Big Boss in both his missions to Russia in 1964 but he grew resentful of the fame Big Boss had accumulated while Skull Face, a lowly information officer, would not be remembered due to Cipher keeping him in the shadows. By Ground Zeroes, he is a senior operative working on behalf of Cipher; he expresses dissatisfaction with Zero's leadership, and seeks information that will lead him to Zero. As the commander of XOF, he authorizes and participates in the torture and imprisonment of Paz and Chico, and later leads an assault against Big Boss's Mother Base, which results in the Militaires Sans Frontières' partial destruction. By The Phantom Pain, Skull Face has fallen out of favor with Cipher and has been exiled to Africa where he revives a project designed to weaponize a parasite as a form of ethnic cleansing as the parasite targets and kills speakers of different languages. He uses this as a pretext to develop a strain of vocal cord parasite that targets English speakers, intending to unleash it against Cipher and start a new Cold War by giving easy-to-make nuclear weapons to minority groups. To do this, he activates the unfinished Metal Gear ST-84 Sahelanthropus, piloted by Psycho Mantis. At the game's climax, Mantis betrays Skull Face, leaving him crushed under a broken girder while Venom Snake defeats ST-84. Skull Face accepts this defeat, apparent by his quoting of David Bowie's Space Oddity. Afterwards, Snake, Kazuhira Miller, and Dr. Emmerich find the incapacitated Skull Face. Skull Face begs Snake to kill him, but Snake and Miller only shoot him several times with his own gun—detaching Skull Face's right arm and left leg—before turning away and leaving him to bleed to death. As Snake and Miller leave the scene, however, Emmerich finishes Skull Face off with another gunshot."
+
+char_pic89 = ""
+
+char_name90 = "Quiet"
+
+first_game90 = "Metal Gear Solid V: The Phantom Pain (2015)"
+
+bio90= "Quiet is a sniper who first appears in Metal Gear Solid V: The Phantom Pain. She first appears in the prologue chapter as part of a team attempting to kill Big Boss when he is discovered by Cipher, but suffers severe third degree burns in the attempt and is only kept alive through parasite therapy that gives her the ability to photosynthesize light, breathe through her skin, cloak herself, and move with superhuman speed and strength. Later in the story, she is defeated by Venom Snake in open combat and is brought back to Mother Base where she eventually starts participating in missions with Venom. The relationship between the two develops from one of mild mistrust mixed with mutual respect to one that is not easily defined but has moments of vulnerability, playful friendship, even romantic tension and ultimately, sacrifice. She is infected with the English-language strain of vocal cord parasites as a means of assassinating Venom Snake, demanding her silence as a means of preventing symptoms from showing. Although Diamond Dogs are able to cure the infection, Quiet refuses the treatment owing to a latent desire for revenge. However, following the mutation of the parasite, she realizes that her silence alone is not enough to prevent symptoms from spreading, and she allows herself to be captured by Soviet forces in Afghanistan. Venom Snake rescues her, but in the process he is bitten by a snake and the two are lost in a sandstorm as Soviet forces hunt for them, prompting Quiet to speak English to direct a helicopter to their location, but in doing so awakens the parasite. She disappears after leaving a goodbye message to Venom Snake and vanishes in the desert in Afghanistan to prevent the infection from spreading."
+
+char_pic90 = ""
+
+char_name91 = "Code Talker"
+
+first_game91 = "Metal Gear Solid V: The Phantom Pain (2015)"
+
+bio91= "Code Talker is a Navajo biologist who specializes in parasite research. Born in 1880, he has survived for over a century due to his research, in which he identified and injected himself with the same species of parasite that gave The End his powers and longevity. Code Talker was ordered by Skull Face to duplicate the vocal cord parasite for use in his plan under the threat of the extermination of his people. He was later rescued by the Diamond Dogs and brought back to Mother Base to aid in finding a way to prevent or cure the parasite."
+
+char_pic91 = ""
+
+char_name92 = "D.D."
+
+first_game92 = "Metal Gear Solid V: The Phantom Pain (2015)"
+
+bio92= "D.D., short for Diamond Dog, is a trained wolf who assists Diamond Dogs in The Phantom Pain. Venom Snake finds him as an orphaned puppy on the field and brings him back to the new Mother Base, where Ocelot trains him to support Snake on missions. As an adult, D.D. wears an eye patch similar to Venom Snake's."
+
+char_pic92 = ""
+
+
+
+
+
 Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
 Game.create(name: name2, release: release2, description: description2, gameplay: gameplay2, story: story2, development: development2)
 Game.create(name: name3, release: release3, description: description3, gameplay: gameplay3, story: story3, development: development3)
@@ -324,3 +1089,100 @@ Game.create(name: name13, release: release13, description: description13, gamepl
 Game.create(name: name14, release: release14, description: description14, gameplay: gameplay14, story: story14, development: development14)
 Game.create(name: name15, release: release15, description: description15, gameplay: gameplay15, story: story15, development: development15)
 Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
+
+
+
+
+
+Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
+Character.create(char_name: char_name2, first_game: first_game2, bio: bio2, char_pic: char_pic2)
+Character.create(char_name: char_name3, first_game: first_game3, bio: bio3, char_pic: char_pic3)
+Character.create(char_name: char_name4, first_game: first_game4, bio: bio4, char_pic: char_pic4)
+Character.create(char_name: char_name5, first_game: first_game5, bio: bio5, char_pic: char_pic5)
+Character.create(char_name: char_name6, first_game: first_game6, bio: bio6, char_pic: char_pic6)
+Character.create(char_name: char_name7, first_game: first_game7, bio: bio7, char_pic: char_pic7)
+Character.create(char_name: char_name8, first_game: first_game8, bio: bio8, char_pic: char_pic8)
+Character.create(char_name: char_name9, first_game: first_game9, bio: bio9, char_pic: char_pic9)
+Character.create(char_name: char_name10, first_game: first_game10, bio: bio10, char_pic: char_pic10)
+Character.create(char_name: char_name11, first_game: first_game11, bio: bio11, char_pic: char_pic11)
+Character.create(char_name: char_name12, first_game: first_game12, bio: bio12, char_pic: char_pic12)
+Character.create(char_name: char_name13, first_game: first_game13, bio: bio13, char_pic: char_pic13)
+Character.create(char_name: char_name14, first_game: first_game14, bio: bio14, char_pic: char_pic14)
+Character.create(char_name: char_name15, first_game: first_game15, bio: bio15, char_pic: char_pic15)
+Character.create(char_name: char_name16, first_game: first_game16, bio: bio16, char_pic: char_pic16)
+Character.create(char_name: char_name17, first_game: first_game17, bio: bio17, char_pic: char_pic17)
+Character.create(char_name: char_name18, first_game: first_game18, bio: bio18, char_pic: char_pic18)
+Character.create(char_name: char_name19, first_game: first_game19, bio: bio19, char_pic: char_pic19)
+Character.create(char_name: char_name20, first_game: first_game20, bio: bio20, char_pic: char_pic20)
+Character.create(char_name: char_name21, first_game: first_game21, bio: bio21, char_pic: char_pic21)
+Character.create(char_name: char_name22, first_game: first_game22, bio: bio22, char_pic: char_pic22)
+Character.create(char_name: char_name23, first_game: first_game23, bio: bio23, char_pic: char_pic23)
+Character.create(char_name: char_name24, first_game: first_game24, bio: bio24, char_pic: char_pic24)
+Character.create(char_name: char_name25, first_game: first_game25, bio: bio25, char_pic: char_pic25)
+Character.create(char_name: char_name26, first_game: first_game26, bio: bio26, char_pic: char_pic26)
+Character.create(char_name: char_name27, first_game: first_game27, bio: bio27, char_pic: char_pic27)
+Character.create(char_name: char_name28, first_game: first_game28, bio: bio28, char_pic: char_pic28)
+Character.create(char_name: char_name29, first_game: first_game29, bio: bio29, char_pic: char_pic29)
+Character.create(char_name: char_name30, first_game: first_game30, bio: bio30, char_pic: char_pic30)
+Character.create(char_name: char_name31, first_game: first_game31, bio: bio31, char_pic: char_pic31)
+Character.create(char_name: char_name32, first_game: first_game32, bio: bio32, char_pic: char_pic32)
+Character.create(char_name: char_name33, first_game: first_game33, bio: bio33, char_pic: char_pic33)
+Character.create(char_name: char_name34, first_game: first_game34, bio: bio34, char_pic: char_pic34)
+Character.create(char_name: char_name35, first_game: first_game35, bio: bio35, char_pic: char_pic35)
+Character.create(char_name: char_name36, first_game: first_game36, bio: bio36, char_pic: char_pic36)
+Character.create(char_name: char_name37, first_game: first_game37, bio: bio37, char_pic: char_pic37)
+Character.create(char_name: char_name38, first_game: first_game38, bio: bio38, char_pic: char_pic38)
+Character.create(char_name: char_name39, first_game: first_game39, bio: bio39, char_pic: char_pic39)
+Character.create(char_name: char_name40, first_game: first_game40, bio: bio40, char_pic: char_pic40)
+Character.create(char_name: char_name41, first_game: first_game41, bio: bio41, char_pic: char_pic41)
+Character.create(char_name: char_name42, first_game: first_game42, bio: bio42, char_pic: char_pic42)
+Character.create(char_name: char_name43, first_game: first_game43, bio: bio43, char_pic: char_pic43)
+Character.create(char_name: char_name44, first_game: first_game44, bio: bio44, char_pic: char_pic44)
+Character.create(char_name: char_name45, first_game: first_game45, bio: bio45, char_pic: char_pic45)
+Character.create(char_name: char_name46, first_game: first_game46, bio: bio46, char_pic: char_pic46)
+Character.create(char_name: char_name47, first_game: first_game47, bio: bio47, char_pic: char_pic47)
+Character.create(char_name: char_name48, first_game: first_game48, bio: bio48, char_pic: char_pic48)
+Character.create(char_name: char_name49, first_game: first_game49, bio: bio49, char_pic: char_pic49)
+Character.create(char_name: char_name50, first_game: first_game50, bio: bio50, char_pic: char_pic50)
+Character.create(char_name: char_name51, first_game: first_game51, bio: bio51, char_pic: char_pic51)
+Character.create(char_name: char_name52, first_game: first_game52, bio: bio52, char_pic: char_pic52)
+Character.create(char_name: char_name53, first_game: first_game53, bio: bio53, char_pic: char_pic53)
+Character.create(char_name: char_name54, first_game: first_game54, bio: bio54, char_pic: char_pic54)
+Character.create(char_name: char_name55, first_game: first_game55, bio: bio55, char_pic: char_pic55)
+Character.create(char_name: char_name56, first_game: first_game56, bio: bio56, char_pic: char_pic56)
+Character.create(char_name: char_name57, first_game: first_game57, bio: bio57, char_pic: char_pic57)
+Character.create(char_name: char_name58, first_game: first_game58, bio: bio58, char_pic: char_pic58)
+Character.create(char_name: char_name59, first_game: first_game59, bio: bio59, char_pic: char_pic59)
+Character.create(char_name: char_name60, first_game: first_game60, bio: bio60, char_pic: char_pic60)
+Character.create(char_name: char_name61, first_game: first_game61, bio: bio61, char_pic: char_pic61)
+Character.create(char_name: char_name62, first_game: first_game62, bio: bio62, char_pic: char_pic62)
+Character.create(char_name: char_name63, first_game: first_game63, bio: bio63, char_pic: char_pic63)
+Character.create(char_name: char_name64, first_game: first_game64, bio: bio64, char_pic: char_pic64)
+Character.create(char_name: char_name65, first_game: first_game65, bio: bio65, char_pic: char_pic65)
+Character.create(char_name: char_name66, first_game: first_game66, bio: bio66, char_pic: char_pic66)
+Character.create(char_name: char_name67, first_game: first_game67, bio: bio67, char_pic: char_pic67)
+Character.create(char_name: char_name68, first_game: first_game68, bio: bio68, char_pic: char_pic68)
+Character.create(char_name: char_name69, first_game: first_game69, bio: bio69, char_pic: char_pic69)
+Character.create(char_name: char_name70, first_game: first_game70, bio: bio70, char_pic: char_pic70)
+Character.create(char_name: char_name71, first_game: first_game71, bio: bio71, char_pic: char_pic71)
+Character.create(char_name: char_name72, first_game: first_game72, bio: bio72, char_pic: char_pic72)
+Character.create(char_name: char_name73, first_game: first_game73, bio: bio73, char_pic: char_pic73)
+Character.create(char_name: char_name74, first_game: first_game74, bio: bio74, char_pic: char_pic74)
+Character.create(char_name: char_name75, first_game: first_game75, bio: bio75, char_pic: char_pic75)
+Character.create(char_name: char_name76, first_game: first_game76, bio: bio76, char_pic: char_pic76)
+Character.create(char_name: char_name77, first_game: first_game77, bio: bio77, char_pic: char_pic77)
+Character.create(char_name: char_name78, first_game: first_game78, bio: bio78, char_pic: char_pic78)
+Character.create(char_name: char_name79, first_game: first_game79, bio: bio79, char_pic: char_pic79)
+Character.create(char_name: char_name80, first_game: first_game80, bio: bio80, char_pic: char_pic80)
+Character.create(char_name: char_name81, first_game: first_game81, bio: bio81, char_pic: char_pic81)
+Character.create(char_name: char_name82, first_game: first_game82, bio: bio82, char_pic: char_pic82)
+Character.create(char_name: char_name83, first_game: first_game83, bio: bio83, char_pic: char_pic83)
+Character.create(char_name: char_name84, first_game: first_game84, bio: bio84, char_pic: char_pic84)
+Character.create(char_name: char_name85, first_game: first_game85, bio: bio85, char_pic: char_pic85)
+Character.create(char_name: char_name86, first_game: first_game86, bio: bio86, char_pic: char_pic86)
+Character.create(char_name: char_name87, first_game: first_game87, bio: bio87, char_pic: char_pic87)
+Character.create(char_name: char_name88, first_game: first_game88, bio: bio88, char_pic: char_pic88)
+Character.create(char_name: char_name89, first_game: first_game89, bio: bio89, char_pic: char_pic89)
+Character.create(char_name: char_name90, first_game: first_game90, bio: bio90, char_pic: char_pic90)
+Character.create(char_name: char_name91, first_game: first_game91, bio: bio91, char_pic: char_pic91)
+Character.create(char_name: char_name92, first_game: first_game92, bio: bio92, char_pic: char_pic92)
