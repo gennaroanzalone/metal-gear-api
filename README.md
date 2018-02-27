@@ -18,6 +18,7 @@ _An API that will return all games and characters from the Metal Gear Franchise.
 $ bundle install
 $ rails db:create
 $ rails db:migrate
+$ rails db:seed
 ```
 
 * To run local server
