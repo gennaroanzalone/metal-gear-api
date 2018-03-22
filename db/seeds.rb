@@ -1160,13 +1160,29 @@ gear_name16 = "Metal Gear KODOQUE"
 gear_about16 = "Metal Gear KODOQUE is the Metal Gear model featured in Metal Gear Acid. Its name is derived from the Japanese word Kodoku or Isolation. One of the larger Metal Gear models, KODOQUE has two armor-like plates on each of its arms that come equipped with a remote control missile launcher. There are four slots for missiles on each arm, coming to a total of 8 missiles at one time. When not being used, these arms can form a protective cocoon around the Metal Gear. It also comes with a beam cannon near the legs, and can fire a plasma shot from its head when both arms are destroyed. This beam can be interrupted if four rods in a control room are destroyed. The inside is also different from Metal Gears: It comes equipped with a control room, and has sentry bots for security. It also has multiple controls when compared to previous Metal Gears having a cockpit. This Metal Gear is also unmanned and is simply controlled by an AI.
 In Metal Gear Acid 2, KODOQUE's wreck was salvaged and brought to the SaintLogic facility. The Metal Gear is activated by one of Koppelthorn's Test subjects, Golab. It is kept in the four-story Metal Gear Prototype building, which is destroyed by Snake and Venus. Before destroying the building, Snake and Venus have to defeat KODOQUE before the time limit runs out."
 
-gear_name = "Chaioth Ha Qadesh"
+gear_name17 = "Chaioth Ha Qadesh"
 
-gear_about = "Chaioth Ha Qadesh is the Metal Gear model which appears in Metal Gear Acid 2. The name Chaioth Ha Qadesh is derived from the Keter, a high level in the Kabbalah, a form of mystical Judaism. The name refers to a group of angels, called The Holy Living Creatures. Originally designed as a way to control Model 3 test subjects, Chaioth Ha Qadesh uses the EGO, Enhanced Governing Organization, Operating System to control various modified soldiers and guard robots. SaintLogic developed the Metal Gear for that purpose, but Dr. Thomas Koppelthorn stole Chaioth Ha Qadesh as a means to get revenge for his wife Lucinda and kill all involved in the Praulia Massacre.
+gear_about17 = "Chaioth Ha Qadesh is the Metal Gear model which appears in Metal Gear Acid 2. The name Chaioth Ha Qadesh is derived from the Keter, a high level in the Kabbalah, a form of mystical Judaism. The name refers to a group of angels, called The Holy Living Creatures. Originally designed as a way to control Model 3 test subjects, Chaioth Ha Qadesh uses the EGO, Enhanced Governing Organization, Operating System to control various modified soldiers and guard robots. SaintLogic developed the Metal Gear for that purpose, but Dr. Thomas Koppelthorn stole Chaioth Ha Qadesh as a means to get revenge for his wife Lucinda and kill all involved in the Praulia Massacre.
 Like other Metal Gears, Chaioth Ha Qadesh can fire a nuclear missile from any area of the world to its target. However, one difference is that it mainly uses neutron bombs as its main weapon, and also contains the data on all test subjects in the SaintLogic institute. It has a missile launcher on its back, and can fire bullets from the Vulcan cannons on each of its arms. It also has a slot on the top for launching energy that can cause any equipped cards to be destroyed. Metal Gear Chaioth Ha Qadesh uses nano chip expansions so the player can see what cards the Metal Gear has and will use. The cockpit, located in the upper zone of Metal Gear's head, can be ejected, which Lucy uses to kill Koppelthorn by launching him out of Chaioth Ha Qadesh and then destroying the cockpit with a missile. At the end of the game, Snake empties its equipped nuclear warhead, hides inside the casing, and launches himself into the ocean to escape U.S. soldiers."
 
 
 Gear.create(name: gear_name1, about: gear_about1)
+Gear.create(name: gear_name2, about: gear_about2)
+Gear.create(name: gear_name3, about: gear_about3)
+Gear.create(name: gear_name4, about: gear_about4)
+Gear.create(name: gear_name5, about: gear_about5)
+Gear.create(name: gear_name6, about: gear_about6)
+Gear.create(name: gear_name7, about: gear_about7)
+Gear.create(name: gear_name8, about: gear_about8)
+Gear.create(name: gear_name9, about: gear_about9)
+Gear.create(name: gear_name10, about: gear_about10)
+Gear.create(name: gear_name11, about: gear_about11)
+Gear.create(name: gear_name12, about: gear_about12)
+Gear.create(name: gear_name13, about: gear_about13)
+Gear.create(name: gear_name14, about: gear_about14)
+Gear.create(name: gear_name15, about: gear_about15)
+Gear.create(name: gear_name16, about: gear_about16)
+Gear.create(name: gear_name17, about: gear_about17)
 
 Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
 Game.create(name: name2, release: release2, description: description2, gameplay: gameplay2, story: story2, development: development2)
