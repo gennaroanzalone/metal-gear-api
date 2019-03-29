@@ -11,36 +11,34 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 20180322190310) do
-
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "characters", force: :cascade do |t|
-    t.string "char_name"
-    t.integer "game_id"
-    t.text "first_game"
-    t.text "bio"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "char_pic"
+  create_table 'characters', force: :cascade do |t|
+    t.string 'char_name'
+    t.integer 'game_id'
+    t.text 'first_game'
+    t.text 'bio'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.string 'char_pic'
   end
 
-  create_table "games", force: :cascade do |t|
-    t.string "name"
-    t.string "release"
-    t.text "description"
-    t.text "story"
-    t.text "gameplay"
-    t.text "development"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'games', force: :cascade do |t|
+    t.string 'name'
+    t.string 'release'
+    t.text 'description'
+    t.text 'story'
+    t.text 'gameplay'
+    t.text 'development'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "gears", force: :cascade do |t|
-    t.string "name"
-    t.text "about"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'gears', force: :cascade do |t|
+    t.string 'name'
+    t.text 'about'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
-
 end
